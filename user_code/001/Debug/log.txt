@@ -1,0 +1,31 @@
+e-usercode.srec ended OK
+task_map binfile set as |./table.bin|
+DEBUG level set to 3
+due to hardwere limits num of cores set to 16 
+
+SETTING INPUTS
+
+ dumping INPUTS
+start loop 
+Line 0: -1 & (-1 | -1) conditions: 1 1 1 duplicate ITERATIONS: -1 -1 0
+ Line 1: 0 & (-1 | -1) conditions: 3 1 1 duplicate ITERATIONS: 0 0 0
+ Line 2: 0 & (-1 | -1) conditions: 9 1 1 duplicate ITERATIONS: 0 0 0
+ Line 3: 0 & (-1 | -1) conditions: 8 1 1 duplicate ITERATIONS: 0 0 0
+ Line 4: -1 & (2 | 3) conditions: 1 10 10 duplicate ITERATIONS: 0 0 0
+ Line 5: 1 & (4 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ ----------tick tock test                  ----------------------------------------------
+at:          Task Map execution starts-------------------------------------------------
+at:       18 ,core  0 : task init             scheduled  
+at:       27 ,core  1 : task SAS              scheduled  
+at:          : num of cores set to 16    ---!!!!!!!!!!!!!!-----------
+at:       64 ,core  1 : task SAS              terminated  retval 0        cycles=        0
+at:      156 ,core  0 : task init             terminated  retval 0        cycles=        0
+at:      165 ,core  0 : task SAF_if_false     scheduled  
+at:      193 ,core  0 : task SAF_if_false     terminated  retval 0        cycles=        0
+at:      202 ,core  0 : task d2               EXECUTED    ----(task is type dummy)------
+at:      211 ,core  0 : task finish           scheduled  
+at:      239 ,core  0 : task finish           terminated  retval 0        cycles=        0
+at:  1880121 -----------------------------Task Map DONE--------------------------------
+at:  1880121 -----------------------------CoresNum=16--------------------------------
+
+ dumping OUTPUT

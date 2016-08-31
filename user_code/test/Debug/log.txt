@@ -1,0 +1,54 @@
+
+task_map binfile set as |./table.bin|
+DEBUG level set to 3
+due to hardwere limits num of cores set to 16 
+start loop 
+Line 0: -1 & (-1 | -1) conditions: 1 1 1 duplicate ITERATIONS: -1 -1 0
+ Line 1: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 2: 1 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 3: 2 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ ----------tick tock test                  ----------------------------------------------
+at:          Task Map execution starts-------------------------------------------------
+at:        9 ,core  0 : task init             scheduled  
+at:          : num of cores set to 16    ---!!!!!!!!!!!!!!-----------
+at:       73 ,core  0 : task add              SetQuota        16          --------------
+at:       82 ,core  0 : task init             terminated  retval 0        cycles=      199
+at:       82 ,core  0 : task add              scheduled   iteration    0
+at:       92 ,core  1 : task add              scheduled   iteration    1
+at:      101 ,core  2 : task add              scheduled   iteration    2
+at:      110 ,core  3 : task add              scheduled   iteration    3
+at:      110 ,core  4 : task add              scheduled   iteration    4
+at:      119 ,core  5 : task add              scheduled   iteration    5
+at:      119 ,core  6 : task add              scheduled   iteration    6
+at:      129 ,core  7 : task add              scheduled   iteration    7
+at:      138 ,core  8 : task add              scheduled   iteration    8
+at:      138 ,core  9 : task add              scheduled   iteration    9
+at:      147 ,core 10 : task add              scheduled   iteration   10
+at:      147 ,core 11 : task add              scheduled   iteration   11
+at:      156 ,core 12 : task add              scheduled   iteration   12
+at:      165 ,core 13 : task add              scheduled   iteration   13
+at:      165 ,core 14 : task add              scheduled   iteration   14
+at:      175 ,core 15 : task add              scheduled   iteration   15
+at:      184 ,core  0 : task add              terminated  iteration    0  cycles=       10
+at:      193 ,core  1 : task add              terminated  iteration    1  cycles=       10
+at:      193 ,core  2 : task add              terminated  iteration    2  cycles=       10
+at:      202 ,core  3 : task add              terminated  iteration    3  cycles=       10
+at:      211 ,core  4 : task add              terminated  iteration    4  cycles=       10
+at:      221 ,core  5 : task add              terminated  iteration    5  cycles=       10
+at:      221 ,core  6 : task add              terminated  iteration    6  cycles=       10
+at:      230 ,core  7 : task add              terminated  iteration    7  cycles=       10
+at:      239 ,core  8 : task add              terminated  iteration    8  cycles=       10
+at:      248 ,core  9 : task add              terminated  iteration    9  cycles=       10
+at:      248 ,core 10 : task add              terminated  iteration   10  cycles=       11
+at:      258 ,core 11 : task add              terminated  iteration   11  cycles=       10
+at:      267 ,core 12 : task add              terminated  iteration   12  cycles=       10
+at:      276 ,core 13 : task add              terminated  iteration   13  cycles=       10
+at:      276 ,core 14 : task add              terminated  iteration   14  cycles=       10
+at:      285 ,core 15 : task add              terminated  iteration   15  cycles=       10
+at:      294 ,core 15 : task add              terminated
+at:      294 ,core 15 : task sumation         scheduled  
+at:      350 ,core 15 : task sumation         terminated  retval 0        cycles=      101
+at:      359 ,core 15 : task finish           scheduled  
+at:      387 ,core 15 : task finish           terminated  retval 0        cycles=        0
+at:  1621237 -----------------------------Task Map DONE--------------------------------
+at:  1621255 -----------------------------CoresNum=16--------------------------------

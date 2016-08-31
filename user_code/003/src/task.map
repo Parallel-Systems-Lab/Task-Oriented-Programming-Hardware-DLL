@@ -1,0 +1,5 @@
+regular task init()
+regular task SAS_all_2(dup_20[<2]/s)
+regular task SAF_all_7(dup_20[<7]/f)
+duplicable task dup_20(init/fu)
+regular task finish(dup_20/f & SAF_all_7/fu)

@@ -1,0 +1,38 @@
+
+opening input file ..//input//lennaR_init.txt
+
+opening input file ..//input//lennaG_init.txt
+
+opening input file ..//input//lennaB_init.txt
+init ended OK
+task_map binfile set as |./table.bin|
+DEBUG level set to 3
+due to hardwere limits num of cores set to 16 
+
+SETTING INPUTS
+
+ dumping INPUTS
+start loop 
+Line 0: -1 & (-1 | -1) conditions: 1 1 1 duplicate ITERATIONS: -1 -1 0
+ Line 1: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 2: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 3: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 4: 1 & (2 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ Line 5: 3 & (4 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ ----------tick tock test                  ----------------------------------------------
+at:          Task Map execution starts-------------------------------------------------
+at:        9 ,core  0 : task init             scheduled  
+at:       46 ,core  0 : task init             terminated  retval 0        cycles=        0
+at:       55 ,core  0 : task rbalance         scheduled  
+at:       64 ,core  1 : task gbalance         scheduled  
+at:       64 ,core  2 : task bbalance         scheduled  
+at:    13141 ,core  2 : task bbalance         terminated  retval 0        cycles=        0
+at:    20440 ,core  0 : task rbalance         terminated  retval 0        cycles=        0
+at:    20449 ,core  1 : task gbalance         terminated  retval 0        cycles=        0
+at:    20458 ,core  1 : task RnG              EXECUTED    ----(task is type dummy)------
+at:    20458 ,core  1 : task finish           scheduled  
+at:    20495 ,core  1 : task finish           terminated  retval 0        cycles=        0
+at:  1843382 -----------------------------Task Map DONE--------------------------------
+at:  1843391 -----------------------------CoresNum=16--------------------------------
+
+ dumping OUTPUT

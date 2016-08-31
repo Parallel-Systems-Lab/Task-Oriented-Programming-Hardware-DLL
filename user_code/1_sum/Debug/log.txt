@@ -1,0 +1,59 @@
+e-usercode.srec ended OK
+task_map binfile set as |./table.bin|
+DEBUG level set to 3
+due to hardwere limits num of cores set to 16 
+
+SETTING INPUTS
+
+ dumping INPUTS
+start loop 
+Line 0: -1 & (-1 | -1) conditions: 1 1 1 duplicate ITERATIONS: -1 -1 0
+ Line 1: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 2: 1 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 3: 2 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ ----------tick tock test                  ----------------------------------------------
+at:          Task Map execution starts-------------------------------------------------
+at:       18 ,core  0 : task init2            scheduled  
+at:       55 ,core  0 : task add2             SetQuota        16          --------------
+at:       92 ,core  0 : task init2            terminated  retval 0        cycles=        0
+at:       92 ,core  0 : task add2             scheduled   iteration    0
+at:      101 ,core  1 : task add2             scheduled   iteration    1
+at:      110 ,core  2 : task add2             scheduled   iteration    2
+at:      110 ,core  3 : task add2             scheduled   iteration    3
+at:      119 ,core  4 : task add2             scheduled   iteration    4
+at:      129 ,core  5 : task add2             scheduled   iteration    5
+at:      129 ,core  6 : task add2             scheduled   iteration    6
+at:      138 ,core  7 : task add2             scheduled   iteration    7
+at:      147 ,core  8 : task add2             scheduled   iteration    8
+at:      147 ,core  9 : task add2             scheduled   iteration    9
+at:      156 ,core 10 : task add2             scheduled   iteration   10
+at:      156 ,core 11 : task add2             scheduled   iteration   11
+at:      165 ,core 12 : task add2             scheduled   iteration   12
+at:      175 ,core 13 : task add2             scheduled   iteration   13
+at:      175 ,core 14 : task add2             scheduled   iteration   14
+at:      184 ,core 15 : task add2             scheduled   iteration   15
+at:      193 ,core  0 : task add2             terminated  iteration    0  cycles=        0
+at:      202 ,core  1 : task add2             terminated  iteration    1  cycles=        0
+at:      202 ,core  2 : task add2             terminated  iteration    2  cycles=        0
+at:      211 ,core  3 : task add2             terminated  iteration    3  cycles=        0
+at:      221 ,core  4 : task add2             terminated  iteration    4  cycles=        0
+at:      230 ,core  5 : task add2             terminated  iteration    5  cycles=        0
+at:      230 ,core  6 : task add2             terminated  iteration    6  cycles=        0
+at:      239 ,core  7 : task add2             terminated  iteration    7  cycles=        0
+at:      248 ,core  8 : task add2             terminated  iteration    8  cycles=        0
+at:      258 ,core  9 : task add2             terminated  iteration    9  cycles=        0
+at:      267 ,core 10 : task add2             terminated  iteration   10  cycles=        0
+at:      267 ,core 11 : task add2             terminated  iteration   11  cycles=        0
+at:      276 ,core 12 : task add2             terminated  iteration   12  cycles=        0
+at:      285 ,core 13 : task add2             terminated  iteration   13  cycles=        0
+at:      294 ,core 14 : task add2             terminated  iteration   14  cycles=        0
+at:      294 ,core 15 : task add2             terminated  iteration   15  cycles=        0
+at:      304 ,core 15 : task add2             terminated
+at:      304 ,core 15 : task sumation2        scheduled  
+at:      340 ,core 15 : task sumation2        terminated  retval 0        cycles=        0
+at:      340 ,core 15 : task finish2          scheduled  
+at:      377 ,core 15 : task finish2          terminated  retval 0        cycles=        0
+at:  1754037 -----------------------------Task Map DONE--------------------------------
+at:  1754046 -----------------------------CoresNum=16--------------------------------
+
+ dumping OUTPUT

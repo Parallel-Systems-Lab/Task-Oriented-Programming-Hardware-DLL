@@ -1,0 +1,164 @@
+
+opening input file ..//input//Aarray_init.txt
+
+opening input file ..//input//Barray_init.txt
+init ended OK
+task_map binfile set as |./table.bin|
+DEBUG level set to 3
+due to hardwere limits num of cores set to 16 
+
+SETTING INPUTS
+
+ dumping INPUTS
+start loop 
+Line 0: -1 & (-1 | -1) conditions: 1 1 1 duplicate ITERATIONS: -1 -1 0
+ Line 1: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 2: 1 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 3: 2 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 4: 3 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 5: 4 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 6: 5 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 7: 6 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 8: 7 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 9: -1 & (8 | 10) conditions: 1 10 10 duplicate ITERATIONS: 0 0 0
+ Line 10: 9 & (-1 | -1) conditions: 9 1 1 duplicate ITERATIONS: 0 0 0
+ Line 11: 9 & (-1 | -1) conditions: 8 1 1 duplicate ITERATIONS: 0 0 0
+ ----------tick tock test                 9----------------------------------------------
+at:          Task Map execution starts-------------------------------------------------
+at:        9 ,core  0 : task init1            scheduled  
+at:          : num of cores set to 16    ---!!!!!!!!!!!!!!-----------
+at:       55 ,core  0 : task init1            terminated  retval 0        cycles=        0
+at:       64 ,core  0 : task evaluate1        scheduled  
+at:      138 ,core  0 : task evaluate1        terminated  retval 0        cycles=        0
+at:      138 ,core  0 : task finish1          scheduled  
+at:      175 ,core  0 : task finish1          terminated  retval 0        cycles=        0
+at:      184 ,core  0 : task init2            scheduled  
+at:      230 ,core  0 : task add2             SetQuota        16          --------------
+at:      258 ,core  0 : task init2            terminated  retval 0        cycles=        0
+at:      267 ,core  0 : task add2             scheduled   iteration    0
+at:      276 ,core  1 : task add2             scheduled   iteration    1
+at:      285 ,core  2 : task add2             scheduled   iteration    2
+at:      294 ,core  3 : task add2             scheduled   iteration    3
+at:      304 ,core  4 : task add2             scheduled   iteration    4
+at:      304 ,core  5 : task add2             scheduled   iteration    5
+at:      313 ,core  6 : task add2             scheduled   iteration    6
+at:      322 ,core  7 : task add2             scheduled   iteration    7
+at:      331 ,core  8 : task add2             scheduled   iteration    8
+at:      331 ,core  9 : task add2             scheduled   iteration    9
+at:      340 ,core 10 : task add2             scheduled   iteration   10
+at:      350 ,core 11 : task add2             scheduled   iteration   11
+at:      359 ,core 12 : task add2             scheduled   iteration   12
+at:      368 ,core 13 : task add2             scheduled   iteration   13
+at:      368 ,core 14 : task add2             scheduled   iteration   14
+at:      377 ,core 15 : task add2             scheduled   iteration   15
+at:      387 ,core  0 : task add2             terminated  iteration    0  cycles=        0
+at:      396 ,core  1 : task add2             terminated  iteration    1  cycles=        0
+at:      405 ,core  2 : task add2             terminated  iteration    2  cycles=        0
+at:      414 ,core  3 : task add2             terminated  iteration    3  cycles=        0
+at:      423 ,core  4 : task add2             terminated  iteration    4  cycles=        0
+at:      433 ,core  5 : task add2             terminated  iteration    5  cycles=        0
+at:      442 ,core  6 : task add2             terminated  iteration    6  cycles=        0
+at:      451 ,core  7 : task add2             terminated  iteration    7  cycles=        0
+at:      460 ,core  8 : task add2             terminated  iteration    8  cycles=        0
+at:      469 ,core  9 : task add2             terminated  iteration    9  cycles=        0
+at:      469 ,core 10 : task add2             terminated  iteration   10  cycles=        0
+at:      479 ,core 11 : task add2             terminated  iteration   11  cycles=        0
+at:      543 ,core 12 : task add2             terminated  iteration   12  cycles=        0
+at:      552 ,core 13 : task add2             terminated  iteration   13  cycles=        0
+at:      562 ,core 14 : task add2             terminated  iteration   14  cycles=        0
+at:      571 ,core 15 : task add2             terminated  iteration   15  cycles=        0
+at:      580 ,core 15 : task add2             terminated
+at:      580 ,core 15 : task sumation2        scheduled  
+at:      617 ,core 15 : task sumation2        terminated  retval 0        cycles=        0
+at:      626 ,core 15 : task finish2          scheduled  
+at:      663 ,core 15 : task finish2          terminated  retval 0        cycles=        0
+at:      672 ,core 15 : task init3            scheduled  
+at:      709 ,core 15 : task add3             SetQuota        16          --------------
+at:      746 ,core 15 : task init3            terminated  retval 0        cycles=        0
+at:      755 ,core 15 : task add3             scheduled   iteration    0
+at:      764 ,core  0 : task add3             scheduled   iteration    1
+at:      764 ,core  1 : task add3             scheduled   iteration    2
+at:      774 ,core  2 : task add3             scheduled   iteration    3
+at:      783 ,core  3 : task add3             scheduled   iteration    4
+at:      792 ,core  4 : task add3             scheduled   iteration    5
+at:      801 ,core  5 : task add3             scheduled   iteration    6
+at:      801 ,core  6 : task add3             scheduled   iteration    7
+at:      810 ,core  7 : task add3             scheduled   iteration    8
+at:      820 ,core  8 : task add3             scheduled   iteration    9
+at:      829 ,core  9 : task add3             scheduled   iteration   10
+at:      838 ,core 10 : task add3             scheduled   iteration   11
+at:      838 ,core 11 : task add3             scheduled   iteration   12
+at:      847 ,core 12 : task add3             scheduled   iteration   13
+at:      857 ,core 13 : task add3             scheduled   iteration   14
+at:      866 ,core 14 : task add3             scheduled   iteration   15
+at:      875 ,core 15 : task add3             terminated  iteration    0  cycles=        0
+at:      884 ,core  0 : task add3             terminated  iteration    1  cycles=        0
+at:      893 ,core  1 : task add3             terminated  iteration    2  cycles=        0
+at:      903 ,core  2 : task add3             terminated  iteration    3  cycles=        0
+at:      903 ,core  3 : task add3             terminated  iteration    4  cycles=        0
+at:      912 ,core  4 : task add3             terminated  iteration    5  cycles=        0
+at:      921 ,core  5 : task add3             terminated  iteration    6  cycles=        0
+at:      930 ,core  6 : task add3             terminated  iteration    7  cycles=        0
+at:      939 ,core  7 : task add3             terminated  iteration    8  cycles=        0
+at:      949 ,core  8 : task add3             terminated  iteration    9  cycles=        0
+at:      958 ,core  9 : task add3             terminated  iteration   10  cycles=        0
+at:      967 ,core 10 : task add3             terminated  iteration   11  cycles=        0
+at:      976 ,core 11 : task add3             terminated  iteration   12  cycles=        0
+at:      986 ,core 12 : task add3             terminated  iteration   13  cycles=        0
+at:      995 ,core 13 : task add3             terminated  iteration   14  cycles=        0
+at:     1004 ,core 14 : task add3             terminated  iteration   15  cycles=        0
+at:     1004 ,core 14 : task add3             terminated
+at:     1013 ,core 14 : task while_cond3      scheduled  
+at:     1059 ,core 14 : task pair_add3        SetQuota         8          --------------
+at:     1087 ,core 14 : task while_cond3      terminated  retval 1        cycles=        0
+at:     1096 ,core 14 : task pair_add3        scheduled   iteration    0
+at:     1105 ,core 15 : task pair_add3        scheduled   iteration    1
+at:     1151 ,core  0 : task pair_add3        scheduled   iteration    2
+at:     1161 ,core  1 : task pair_add3        scheduled   iteration    3
+at:     1170 ,core  2 : task pair_add3        scheduled   iteration    4
+at:     1170 ,core  3 : task pair_add3        scheduled   iteration    5
+at:     1179 ,core  4 : task pair_add3        scheduled   iteration    6
+at:     1188 ,core  5 : task pair_add3        scheduled   iteration    7
+at:     1216 ,core 14 : task pair_add3        terminated  iteration    0  cycles=        0
+at:     1225 ,core 15 : task pair_add3        terminated  iteration    1  cycles=        0
+at:     1234 ,core  0 : task pair_add3        terminated  iteration    2  cycles=        0
+at:     1244 ,core  1 : task pair_add3        terminated  iteration    3  cycles=        0
+at:     1253 ,core  2 : task pair_add3        terminated  iteration    4  cycles=        0
+at:     1253 ,core  3 : task pair_add3        terminated  iteration    5  cycles=        0
+at:     1262 ,core  4 : task pair_add3        terminated  iteration    6  cycles=        0
+at:     1271 ,core  5 : task pair_add3        terminated  iteration    7  cycles=        0
+at:     1280 ,core  5 : task pair_add3        terminated
+at:     1290 ,core  5 : task while_cond3      scheduled  
+at:     1327 ,core  5 : task pair_add3        SetQuota         4          --------------
+at:     1363 ,core  5 : task while_cond3      terminated  retval 1        cycles=        0
+at:     1363 ,core  5 : task pair_add3        scheduled   iteration    0
+at:     1382 ,core  6 : task pair_add3        scheduled   iteration    1
+at:     1382 ,core  7 : task pair_add3        scheduled   iteration    2
+at:     1391 ,core  8 : task pair_add3        scheduled   iteration    3
+at:     1428 ,core  5 : task pair_add3        terminated  iteration    0  cycles=        0
+at:     1437 ,core  6 : task pair_add3        terminated  iteration    1  cycles=        0
+at:     1446 ,core  7 : task pair_add3        terminated  iteration    2  cycles=        0
+at:     1446 ,core  8 : task pair_add3        terminated  iteration    3  cycles=        0
+at:     1456 ,core  8 : task pair_add3        terminated
+at:     1465 ,core  8 : task while_cond3      scheduled  
+at:     1502 ,core  8 : task pair_add3        SetQuota         2          --------------
+at:     1538 ,core  8 : task while_cond3      terminated  retval 1        cycles=        0
+at:     1538 ,core  8 : task pair_add3        scheduled   iteration    0
+at:     1548 ,core  9 : task pair_add3        scheduled   iteration    1
+at:     1585 ,core  8 : task pair_add3        terminated  iteration    0  cycles=        0
+at:     1594 ,core  9 : task pair_add3        terminated  iteration    1  cycles=        0
+at:     1603 ,core  9 : task pair_add3        terminated
+at:     1612 ,core  9 : task while_cond3      scheduled  
+at:     1649 ,core  9 : task pair_add3        SetQuota         1          --------------
+at:     1686 ,core  9 : task while_cond3      terminated  retval 1        cycles=        0
+at:     1686 ,core  9 : task pair_add3        scheduled   iteration    0
+at:     1732 ,core  9 : task pair_add3        terminated  iteration    0  cycles=        0
+at:     1732 ,core  9 : task pair_add3        terminated
+at:     1741 ,core  9 : task while_cond3      scheduled  
+at:     1778 ,core  9 : task while_cond3      terminated  retval 0        cycles=        0
+at:     1787 ,core  9 : task finish3          scheduled  
+at:     1824 ,core  9 : task finish3          terminated  retval 0        cycles=        0
+at:  2034094 -----------------------------Task Map DONE--------------------------------
+at:  2034103 -----------------------------CoresNum=16--------------------------------
+
+ dumping OUTPUT

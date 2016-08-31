@@ -1,0 +1,14 @@
+extern void init(void);
+extern void HW_batch_1(void);
+extern void HW_batch_2(void);
+extern void HW_batch_3(void);
+extern void HW_batch_4(void);
+extern void HW_batch_5(void);
+extern void HW_batch_6(void);
+extern void HW_batch_7(void);
+extern void HW_batch_8(void);
+extern void HW_batch_9(void);
+extern void dumb1(void);
+extern void dumb2(void);
+extern void dumb3(void);
+extern void finish(void);

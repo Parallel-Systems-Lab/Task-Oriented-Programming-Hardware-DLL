@@ -1,0 +1,152 @@
+e-usercode.srec ended OK
+task_map binfile set as |./table.bin|
+DEBUG level set to 3
+due to hardwere limits num of cores set to 16 
+
+SETTING INPUTS
+
+ dumping INPUTS
+start loop 
+Line 0: -1 & (-1 | -1) conditions: 1 1 1 duplicate ITERATIONS: -1 -1 0
+ Line 1: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 2: 1 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 3: 2 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 4: 3 & (-1 | -1) conditions: 3 1 1 duplicate ITERATIONS: 0 0 0
+ Line 5: 4 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 6: 10 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 7: 10 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 8: 10 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 9: 10 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 10: 1 & (2 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ Line 11: 6 & (7 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ Line 12: 8 & (9 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ Line 13: 11 & (12 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ ----------tick tock test                 9----------------------------------------------
+at:          Task Map execution starts-------------------------------------------------
+at:        9 ,core  0 : task init             scheduled  
+at:       55 ,core  0 : task HW_batch_1       SetQuota         5          --------------
+at:       92 ,core  0 : task HW_batch_2       SetQuota         5          --------------
+at:      129 ,core  0 : task HW_batch_3       SetQuota        10          --------------
+at:      165 ,core  0 : task HW_batch_4       SetQuota         4          --------------
+at:      193 ,core  0 : task HW_batch_5       SetQuota         5          --------------
+at:      248 ,core  0 : task HW_batch_6       SetQuota         5          --------------
+at:      285 ,core  0 : task HW_batch_7       SetQuota         5          --------------
+at:      313 ,core  0 : task HW_batch_8       SetQuota         5          --------------
+at:      350 ,core  0 : task HW_batch_9       SetQuota         5          --------------
+at:      469 ,core  0 : task init             terminated  retval 0        cycles=        0
+at:      479 ,core  0 : task HW_batch_1       scheduled   iteration    0
+at:      488 ,core  1 : task HW_batch_1       scheduled   iteration    1
+at:      497 ,core  2 : task HW_batch_1       scheduled   iteration    2
+at:      506 ,core  3 : task HW_batch_1       scheduled   iteration    3
+at:      516 ,core  4 : task HW_batch_1       scheduled   iteration    4
+at:      608 ,core  0 : task HW_batch_1       terminated  iteration    0  cycles=        0
+at:      617 ,core  1 : task HW_batch_1       terminated  iteration    1  cycles=        0
+at:      626 ,core  2 : task HW_batch_1       terminated  iteration    2  cycles=        0
+at:      635 ,core  3 : task HW_batch_1       terminated  iteration    3  cycles=        0
+at:      645 ,core  4 : task HW_batch_1       terminated  iteration    4  cycles=        0
+at:      645 ,core  4 : task HW_batch_1       terminated
+at:      654 ,core  4 : task HW_batch_2       scheduled   iteration    0
+at:      663 ,core  5 : task HW_batch_2       scheduled   iteration    1
+at:      672 ,core  6 : task HW_batch_2       scheduled   iteration    2
+at:      681 ,core  7 : task HW_batch_2       scheduled   iteration    3
+at:      681 ,core  8 : task HW_batch_2       scheduled   iteration    4
+at:      718 ,core  4 : task HW_batch_2       terminated  iteration    0  cycles=        0
+at:      728 ,core  5 : task HW_batch_2       terminated  iteration    1  cycles=        0
+at:      737 ,core  6 : task HW_batch_2       terminated  iteration    2  cycles=        0
+at:      746 ,core  7 : task HW_batch_2       terminated  iteration    3  cycles=        0
+at:      755 ,core  8 : task HW_batch_2       terminated  iteration    4  cycles=        0
+at:      755 ,core  8 : task HW_batch_2       terminated
+at:      764 ,core  8 : task HW_batch_3       scheduled   iteration    0
+at:      829 ,core  9 : task HW_batch_3       scheduled   iteration    1
+at:      838 ,core 10 : task HW_batch_3       scheduled   iteration    2
+at:      847 ,core 11 : task HW_batch_3       scheduled   iteration    3
+at:      857 ,core 12 : task HW_batch_3       scheduled   iteration    4
+at:      866 ,core 13 : task HW_batch_3       scheduled   iteration    5
+at:      875 ,core 14 : task HW_batch_3       scheduled   iteration    6
+at:      875 ,core 15 : task HW_batch_3       scheduled   iteration    7
+at:      884 ,core  0 : task HW_batch_3       scheduled   iteration    8
+at:      893 ,core  1 : task HW_batch_3       scheduled   iteration    9
+at:      903 ,core  2 : task HW_batch_4       scheduled   iteration    0
+at:      912 ,core  3 : task HW_batch_4       scheduled   iteration    1
+at:      921 ,core  4 : task HW_batch_4       scheduled   iteration    2
+at:      930 ,core  5 : task HW_batch_4       scheduled   iteration    3
+at:      939 ,core  6 : task dumb1            EXECUTED    ----(task is type dummy)------
+at:      939 ,core  6 : task HW_batch_6       scheduled   iteration    0
+at:      958 ,core  7 : task HW_batch_6       scheduled   iteration    1
+at:     1022 ,core  8 : task HW_batch_3       terminated  iteration    0  cycles=        0
+at:     1032 ,core  8 : task HW_batch_6       scheduled   iteration    2
+at:     1041 ,core  9 : task HW_batch_3       terminated  iteration    1  cycles=        0
+at:     1041 ,core  9 : task HW_batch_6       scheduled   iteration    3
+at:     1050 ,core 10 : task HW_batch_3       terminated  iteration    2  cycles=        0
+at:     1059 ,core 10 : task HW_batch_6       scheduled   iteration    4
+at:     1069 ,core 11 : task HW_batch_3       terminated  iteration    3  cycles=        0
+at:     1078 ,core 11 : task HW_batch_7       scheduled   iteration    0
+at:     1087 ,core 12 : task HW_batch_3       terminated  iteration    4  cycles=        0
+at:     1087 ,core 12 : task HW_batch_7       scheduled   iteration    1
+at:     1096 ,core 13 : task HW_batch_3       terminated  iteration    5  cycles=        0
+at:     1105 ,core 13 : task HW_batch_7       scheduled   iteration    2
+at:     1115 ,core 14 : task HW_batch_3       terminated  iteration    6  cycles=        0
+at:     1124 ,core 14 : task HW_batch_7       scheduled   iteration    3
+at:     1124 ,core 15 : task HW_batch_3       terminated  iteration    7  cycles=        0
+at:     1133 ,core 15 : task HW_batch_7       scheduled   iteration    4
+at:     1142 ,core  0 : task HW_batch_3       terminated  iteration    8  cycles=        0
+at:     1151 ,core  0 : task HW_batch_8       scheduled   iteration    0
+at:     1161 ,core  1 : task HW_batch_3       terminated  iteration    9  cycles=        0
+at:     1170 ,core  1 : task HW_batch_3       terminated
+at:     1170 ,core  1 : task HW_batch_8       scheduled   iteration    1
+at:     1382 ,core  2 : task HW_batch_4       terminated  iteration    0  cycles=        0
+at:     1391 ,core  2 : task HW_batch_8       scheduled   iteration    2
+at:     1391 ,core  3 : task HW_batch_4       terminated  iteration    1  cycles=        0
+at:     1400 ,core  3 : task HW_batch_8       scheduled   iteration    3
+at:     1409 ,core  4 : task HW_batch_4       terminated  iteration    2  cycles=        0
+at:     1419 ,core  4 : task HW_batch_8       scheduled   iteration    4
+at:     1428 ,core  5 : task HW_batch_4       terminated  iteration    3  cycles=        0
+at:     1428 ,core  5 : task HW_batch_4       terminated
+at:     1437 ,core  5 : task HW_batch_5       scheduled   iteration    0
+at:     1446 ,core  6 : task HW_batch_6       terminated  iteration    0  cycles=        0
+at:     1456 ,core  6 : task HW_batch_5       scheduled   iteration    1
+at:     1465 ,core  7 : task HW_batch_6       terminated  iteration    1  cycles=        0
+at:     1465 ,core  7 : task HW_batch_5       scheduled   iteration    2
+at:     1520 ,core  8 : task HW_batch_6       terminated  iteration    2  cycles=        0
+at:     1520 ,core  8 : task HW_batch_5       scheduled   iteration    3
+at:     1529 ,core  9 : task HW_batch_6       terminated  iteration    3  cycles=        0
+at:     1566 ,core  9 : task HW_batch_5       scheduled   iteration    4
+at:     1575 ,core 10 : task HW_batch_6       terminated  iteration    4  cycles=        0
+at:     1585 ,core 10 : task HW_batch_6       terminated
+at:     1594 ,core 10 : task HW_batch_9       scheduled   iteration    0
+at:     1603 ,core 11 : task HW_batch_7       terminated  iteration    0  cycles=        0
+at:     1612 ,core 11 : task HW_batch_9       scheduled   iteration    1
+at:     1612 ,core 12 : task HW_batch_7       terminated  iteration    1  cycles=        0
+at:     1621 ,core 12 : task HW_batch_9       scheduled   iteration    2
+at:     1631 ,core 13 : task HW_batch_7       terminated  iteration    2  cycles=        0
+at:     1640 ,core 13 : task HW_batch_9       scheduled   iteration    3
+at:     1649 ,core 14 : task HW_batch_7       terminated  iteration    3  cycles=        0
+at:     1649 ,core 14 : task HW_batch_9       scheduled   iteration    4
+at:     1658 ,core 15 : task HW_batch_7       terminated  iteration    4  cycles=        0
+at:     1668 ,core 15 : task HW_batch_7       terminated
+at:     1677 ,core 15 : task dumb2            EXECUTED    ----(task is type dummy)------
+at:     1686 ,core  0 : task HW_batch_8       terminated  iteration    0  cycles=        0
+at:     1695 ,core  1 : task HW_batch_8       terminated  iteration    1  cycles=        0
+at:     1861 ,core  2 : task HW_batch_8       terminated  iteration    2  cycles=        0
+at:     1898 ,core  3 : task HW_batch_8       terminated  iteration    3  cycles=        0
+at:     1907 ,core  4 : task HW_batch_8       terminated  iteration    4  cycles=        0
+at:     1907 ,core  4 : task HW_batch_8       terminated
+at:     1916 ,core  5 : task HW_batch_5       terminated  iteration    0  cycles=        0
+at:     1926 ,core  6 : task HW_batch_5       terminated  iteration    1  cycles=        0
+at:     1962 ,core  7 : task HW_batch_5       terminated  iteration    2  cycles=        0
+at:     1999 ,core  8 : task HW_batch_5       terminated  iteration    3  cycles=        0
+at:     2064 ,core  9 : task HW_batch_5       terminated  iteration    4  cycles=        0
+at:     2073 ,core  9 : task HW_batch_5       terminated
+at:     2082 ,core 10 : task HW_batch_9       terminated  iteration    0  cycles=        0
+at:     2091 ,core 11 : task HW_batch_9       terminated  iteration    1  cycles=        0
+at:     2101 ,core 12 : task HW_batch_9       terminated  iteration    2  cycles=        0
+at:     2138 ,core 13 : task HW_batch_9       terminated  iteration    3  cycles=        0
+at:     2147 ,core 14 : task HW_batch_9       terminated  iteration    4  cycles=        0
+at:     2156 ,core 14 : task HW_batch_9       terminated
+at:     2165 ,core 14 : task dumb3            EXECUTED    ----(task is type dummy)------
+at:     2174 ,core 14 : task finish           scheduled  
+at:     2276 ,core 14 : task finish           terminated  retval 0        cycles=        0
+at:  2134043 -----------------------------Task Map DONE--------------------------------
+at:  2134053 -----------------------------CoresNum=16--------------------------------
+
+ dumping OUTPUT

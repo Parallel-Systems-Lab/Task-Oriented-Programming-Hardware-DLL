@@ -1,0 +1,5 @@
+regular task init1()
+duplicable task evaluate1(init1/fu )
+regular task config_parallel(evaluate1/f | parallel_res/f)
+duplicable task parallel_res(config_parallel/f0)
+regular task finish1(config_parallel/f1)

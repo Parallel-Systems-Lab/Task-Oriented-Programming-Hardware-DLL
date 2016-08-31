@@ -1,0 +1,134 @@
+e-usercode.srec ended OK
+task_map binfile set as |./table.bin|
+DEBUG level set to 3
+due to hardwere limits num of cores set to 16 
+
+SETTING INPUTS
+
+ dumping INPUTS
+start loop 
+Line 0: -1 & (-1 | -1) conditions: 1 1 1 duplicate ITERATIONS: -1 -1 0
+ Line 1: 4 & (-1 | -1) conditions: 4 1 1 duplicate ITERATIONS: 5 0 0
+ Line 2: 4 & (-1 | -1) conditions: 11 1 1 duplicate ITERATIONS: 10 0 0
+ Line 3: 4 & (-1 | -1) conditions: 11 1 1 duplicate ITERATIONS: 25 0 0
+ Line 4: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 5: 4 & (3 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ ----------tick tock test                 9----------------------------------------------
+at:          Task Map execution starts-------------------------------------------------
+at:        9 ,core  0 : task init             scheduled  
+at:          : num of cores set to 16    ---!!!!!!!!!!!!!!-----------
+at:       64 ,core  0 : task dup_50           SetQuota        50          --------------
+at:       82 ,core  0 : task init             terminated  retval 0        cycles=        0
+at:       92 ,core  0 : task dup_50           scheduled   iteration    0
+at:      101 ,core  1 : task dup_50           scheduled   iteration    1
+at:      110 ,core  2 : task dup_50           scheduled   iteration    2
+at:      119 ,core  3 : task dup_50           scheduled   iteration    3
+at:      119 ,core  4 : task dup_50           scheduled   iteration    4
+at:      129 ,core  5 : task dup_50           scheduled   iteration    5
+at:      138 ,core  6 : task SAS_5            scheduled  
+at:      138 ,core  7 : task dup_50           scheduled   iteration    6
+at:      147 ,core  8 : task dup_50           scheduled   iteration    7
+at:      156 ,core  9 : task dup_50           scheduled   iteration    8
+at:      165 ,core 10 : task dup_50           scheduled   iteration    9
+at:      165 ,core 11 : task dup_50           scheduled   iteration   10
+at:      175 ,core 12 : task dup_50           scheduled   iteration   11
+at:      184 ,core 13 : task dup_50           scheduled   iteration   12
+at:      184 ,core 14 : task dup_50           scheduled   iteration   13
+at:      193 ,core 15 : task dup_50           scheduled   iteration   14
+at:      202 ,core  0 : task dup_50           terminated  iteration    0  cycles=        0
+at:      211 ,core  0 : task dup_50           scheduled   iteration   15
+at:      211 ,core  1 : task dup_50           terminated  iteration    1  cycles=        0
+at:      221 ,core  1 : task dup_50           scheduled   iteration   16
+at:      230 ,core  2 : task dup_50           terminated  iteration    2  cycles=        0
+at:      230 ,core  2 : task dup_50           scheduled   iteration   17
+at:      239 ,core  3 : task dup_50           terminated  iteration    3  cycles=        0
+at:      248 ,core  3 : task dup_50           scheduled   iteration   18
+at:      258 ,core  4 : task dup_50           terminated  iteration    4  cycles=        0
+at:      258 ,core  4 : task dup_50           scheduled   iteration   19
+at:      267 ,core  5 : task dup_50           terminated  iteration    5  cycles=        0
+at:      276 ,core  5 : task dup_50           scheduled   iteration   20
+at:      276 ,core  6 : task SAS_5            terminated  retval 0        cycles=        0
+at:      285 ,core  6 : task dup_50           scheduled   iteration   21
+at:      294 ,core  7 : task dup_50           terminated  iteration    6  cycles=        0
+at:      294 ,core  7 : task dup_50           scheduled   iteration   22
+at:      304 ,core  8 : task dup_50           terminated  iteration    7  cycles=        0
+at:      313 ,core  8 : task dup_50           scheduled   iteration   23
+at:      313 ,core  9 : task dup_50           terminated  iteration    8  cycles=        0
+at:      322 ,core  9 : task dup_50           scheduled   iteration   24
+at:      331 ,core 10 : task dup_50           terminated  iteration    9  cycles=        0
+at:      331 ,core 10 : task dup_50           scheduled   iteration   25
+at:      340 ,core 11 : task dup_50           terminated  iteration   10  cycles=        0
+at:      414 ,core 11 : task SAF_10           scheduled  
+at:      423 ,core 12 : task dup_50           terminated  iteration   11  cycles=        0
+at:      423 ,core 12 : task dup_50           scheduled   iteration   26
+at:      433 ,core 13 : task dup_50           terminated  iteration   12  cycles=        0
+at:      442 ,core 13 : task dup_50           scheduled   iteration   27
+at:      442 ,core 14 : task dup_50           terminated  iteration   13  cycles=        0
+at:      451 ,core 14 : task dup_50           scheduled   iteration   28
+at:      460 ,core 15 : task dup_50           terminated  iteration   14  cycles=        0
+at:      460 ,core 15 : task dup_50           scheduled   iteration   29
+at:      469 ,core  0 : task dup_50           terminated  iteration   15  cycles=        0
+at:      479 ,core  0 : task dup_50           scheduled   iteration   30
+at:      488 ,core  1 : task dup_50           terminated  iteration   16  cycles=        0
+at:      488 ,core  1 : task dup_50           scheduled   iteration   31
+at:      497 ,core  2 : task dup_50           terminated  iteration   17  cycles=        0
+at:      506 ,core  2 : task dup_50           scheduled   iteration   32
+at:      506 ,core  3 : task dup_50           terminated  iteration   18  cycles=        0
+at:      516 ,core  3 : task dup_50           scheduled   iteration   33
+at:      525 ,core  4 : task dup_50           terminated  iteration   19  cycles=        0
+at:      525 ,core  4 : task dup_50           scheduled   iteration   34
+at:      534 ,core  5 : task dup_50           terminated  iteration   20  cycles=        0
+at:      543 ,core  5 : task dup_50           scheduled   iteration   35
+at:      552 ,core  6 : task dup_50           terminated  iteration   21  cycles=        0
+at:      552 ,core  6 : task dup_50           scheduled   iteration   36
+at:      562 ,core  7 : task dup_50           terminated  iteration   22  cycles=        0
+at:      571 ,core  7 : task dup_50           scheduled   iteration   37
+at:      571 ,core  8 : task dup_50           terminated  iteration   23  cycles=        0
+at:      580 ,core  8 : task dup_50           scheduled   iteration   38
+at:      589 ,core  9 : task dup_50           terminated  iteration   24  cycles=        0
+at:      589 ,core  9 : task dup_50           scheduled   iteration   39
+at:      599 ,core 10 : task dup_50           terminated  iteration   25  cycles=        0
+at:      608 ,core 10 : task SAF_25           scheduled  
+at:      608 ,core 11 : task SAF_10           terminated  retval 0        cycles=        0
+at:      617 ,core 11 : task dup_50           scheduled   iteration   40
+at:      626 ,core 12 : task dup_50           terminated  iteration   26  cycles=        0
+at:      626 ,core 12 : task dup_50           scheduled   iteration   41
+at:      635 ,core 13 : task dup_50           terminated  iteration   27  cycles=        0
+at:      645 ,core 13 : task dup_50           scheduled   iteration   42
+at:      654 ,core 14 : task dup_50           terminated  iteration   28  cycles=        0
+at:      654 ,core 14 : task dup_50           scheduled   iteration   43
+at:      663 ,core 15 : task dup_50           terminated  iteration   29  cycles=        0
+at:      672 ,core 15 : task dup_50           scheduled   iteration   44
+at:      672 ,core  0 : task dup_50           terminated  iteration   30  cycles=        0
+at:      681 ,core  0 : task dup_50           scheduled   iteration   45
+at:      691 ,core  1 : task dup_50           terminated  iteration   31  cycles=        0
+at:      691 ,core  1 : task dup_50           scheduled   iteration   46
+at:      700 ,core  2 : task dup_50           terminated  iteration   32  cycles=        0
+at:      709 ,core  2 : task dup_50           scheduled   iteration   47
+at:      709 ,core  3 : task dup_50           terminated  iteration   33  cycles=        0
+at:      718 ,core  3 : task dup_50           scheduled   iteration   48
+at:      728 ,core  4 : task dup_50           terminated  iteration   34  cycles=        0
+at:      728 ,core  4 : task dup_50           scheduled   iteration   49
+at:      774 ,core  5 : task dup_50           terminated  iteration   35  cycles=        0
+at:      783 ,core  6 : task dup_50           terminated  iteration   36  cycles=        0
+at:      792 ,core  7 : task dup_50           terminated  iteration   37  cycles=        0
+at:      801 ,core  8 : task dup_50           terminated  iteration   38  cycles=        0
+at:      810 ,core  9 : task dup_50           terminated  iteration   39  cycles=        0
+at:      810 ,core 10 : task SAF_25           terminated  retval 0        cycles=        0
+at:      820 ,core 11 : task dup_50           terminated  iteration   40  cycles=        0
+at:      829 ,core 12 : task dup_50           terminated  iteration   41  cycles=        0
+at:      838 ,core 13 : task dup_50           terminated  iteration   42  cycles=        0
+at:      847 ,core 14 : task dup_50           terminated  iteration   43  cycles=        0
+at:      857 ,core 15 : task dup_50           terminated  iteration   44  cycles=        0
+at:      866 ,core  0 : task dup_50           terminated  iteration   45  cycles=        0
+at:      875 ,core  1 : task dup_50           terminated  iteration   46  cycles=        0
+at:      875 ,core  2 : task dup_50           terminated  iteration   47  cycles=        0
+at:      884 ,core  3 : task dup_50           terminated  iteration   48  cycles=        0
+at:      893 ,core  4 : task dup_50           terminated  iteration   49  cycles=        0
+at:      903 ,core  4 : task dup_50           terminated
+at:      903 ,core  4 : task finish           scheduled  
+at:      939 ,core  4 : task finish           terminated  retval 0        cycles=        0
+at:  1815280 -----------------------------Task Map DONE--------------------------------
+at:  1815280 -----------------------------CoresNum=16--------------------------------
+
+ dumping OUTPUT

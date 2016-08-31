@@ -1,0 +1,98 @@
+e-usercode.srec ended OK
+task_map binfile set as |./table.bin|
+DEBUG level set to 3
+due to hardwere limits num of cores set to 16 
+
+SETTING INPUTS
+
+ dumping INPUTS
+start loop 
+Line 0: -1 & (-1 | -1) conditions: 1 1 1 duplicate ITERATIONS: -1 -1 0
+ Line 1: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 2: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 3: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 4: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 5: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 6: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 7: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 8: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 9: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 10: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 11: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 12: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 13: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 14: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 15: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 16: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 17: 1 & (2 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ Line 18: 3 & (4 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ Line 19: 5 & (6 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ Line 20: 7 & (8 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ Line 21: 9 & (10 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ Line 22: 11 & (12 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ Line 23: 13 & (14 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ Line 24: 15 & (16 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ Line 25: 17 & (18 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ Line 26: 19 & (20 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ Line 27: 21 & (22 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ Line 28: 23 & (24 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ Line 29: 25 & (26 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ Line 30: 27 & (28 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ Line 31: 29 & (29 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ ----------tick tock test                  ----------------------------------------------
+at:          Task Map execution starts-------------------------------------------------
+at:        9 ,core  0 : task init             scheduled  
+at:          : num of cores set to 16    ---!!!!!!!!!!!!!!-----------
+at:       82 ,core  0 : task init             terminated  retval 0        cycles=        0
+at:       92 ,core  0 : task task0            scheduled  
+at:      101 ,core  1 : task task1            scheduled  
+at:      110 ,core  2 : task task2            scheduled  
+at:      119 ,core  3 : task task3            scheduled  
+at:      129 ,core  4 : task task4            scheduled  
+at:      138 ,core  5 : task task5            scheduled  
+at:      147 ,core  6 : task task6            scheduled  
+at:      156 ,core  7 : task task7            scheduled  
+at:      165 ,core  8 : task task8            scheduled  
+at:      175 ,core  9 : task task9            scheduled  
+at:      184 ,core 10 : task task10           scheduled  
+at:      193 ,core 11 : task task11           scheduled  
+at:      211 ,core 12 : task task12           scheduled  
+at:      221 ,core 13 : task task13           scheduled  
+at:      230 ,core 14 : task task14           scheduled  
+at:      239 ,core 15 : task task15           scheduled  
+at:      350 ,core 15 : task task15           terminated  retval 0        cycles=        0
+at:      442 ,core 14 : task task14           terminated  retval 0        cycles=        0
+at:      451 ,core 14 : task d7               EXECUTED    ----(task is type dummy)------
+at:      506 ,core 13 : task task13           terminated  retval 0        cycles=        0
+at:      599 ,core 12 : task task12           terminated  retval 0        cycles=        0
+at:      617 ,core 12 : task d6               EXECUTED    ----(task is type dummy)------
+at:      626 ,core 12 : task d11              EXECUTED    ----(task is type dummy)------
+at:      691 ,core 11 : task task11           terminated  retval 0        cycles=        0
+at:      755 ,core 10 : task task10           terminated  retval 0        cycles=        0
+at:      764 ,core 10 : task d5               EXECUTED    ----(task is type dummy)------
+at:      903 ,core  9 : task task9            terminated  retval 0        cycles=        0
+at:     1004 ,core  8 : task task8            terminated  retval 0        cycles=        0
+at:     1013 ,core  8 : task d4               EXECUTED    ----(task is type dummy)------
+at:     1032 ,core  8 : task d10              EXECUTED    ----(task is type dummy)------
+at:     1041 ,core  8 : task d13              EXECUTED    ----(task is type dummy)------
+at:     1087 ,core  7 : task task7            terminated  retval 0        cycles=        0
+at:     1170 ,core  6 : task task6            terminated  retval 0        cycles=        0
+at:     1179 ,core  6 : task d3               EXECUTED    ----(task is type dummy)------
+at:     1262 ,core  5 : task task5            terminated  retval 0        cycles=        0
+at:     1345 ,core  4 : task task4            terminated  retval 0        cycles=        0
+at:     1354 ,core  4 : task d2               EXECUTED    ----(task is type dummy)------
+at:     1373 ,core  4 : task d9               EXECUTED    ----(task is type dummy)------
+at:     1465 ,core  3 : task task3            terminated  retval 0        cycles=        0
+at:     1557 ,core  2 : task task2            terminated  retval 0        cycles=        0
+at:     1566 ,core  2 : task d1               EXECUTED    ----(task is type dummy)------
+at:     1621 ,core  1 : task task1            terminated  retval 0        cycles=        0
+at:     1714 ,core  0 : task task0            terminated  retval 0        cycles=        0
+at:     1723 ,core  0 : task d0               EXECUTED    ----(task is type dummy)------
+at:     1741 ,core  0 : task d8               EXECUTED    ----(task is type dummy)------
+at:     1750 ,core  0 : task d12              EXECUTED    ----(task is type dummy)------
+at:     1769 ,core  0 : task finish           scheduled  
+at:     1843 ,core  0 : task finish           terminated  retval 0        cycles=        0
+at:   767399 -----------------------------Task Map DONE--------------------------------
+at:   767408 -----------------------------CoresNum=16--------------------------------
+
+ dumping OUTPUT

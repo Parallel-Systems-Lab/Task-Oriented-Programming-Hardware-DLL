@@ -1,0 +1,188 @@
+
+task_map binfile set as |./table.bin|
+DEBUG level set to 3
+due to hardwere limits num of cores set to 16 
+Line 0: -1 & (-1 | -1) conditions: 1 1 1 duplicate ITERATIONS: -1 -1 0
+ Line 1: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 2: 1 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 3: 2 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 4: 3 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 5: 4 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 6: 5 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 7: 8 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 8: 9 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 9: 6 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ ----------tick tock test                18----------------------------------------------
+at:          Task Map execution starts-------------------------------------------------
+at:       18 ,core  0 : task f0               scheduled  
+at:      166 ,core  0 : task dupf1            SetQuota        15          --------------
+at:      258 ,core  0 : task dupf2            SetQuota        10          --------------
+at:      350 ,core  0 : task dupf3            SetQuota        20          --------------
+at:      442 ,core  0 : task dupf4            SetQuota        30          --------------
+at:      516 ,core  0 : task f0               terminated  retval 0        cycles=   200876
+at:      534 ,core  0 : task f1               scheduled  
+at:      608 ,core  0 : task f1               terminated  retval 1        cycles=     1358
+at:      627 ,core  0 : task f2               scheduled  
+at:      700 ,core  0 : task f2               terminated  retval 1        cycles=      275
+at:      719 ,core  0 : task f3               scheduled  
+at:      792 ,core  0 : task f3               terminated  retval 1        cycles=      145
+at:      811 ,core  0 : task f4               scheduled  
+at:      885 ,core  0 : task f4               terminated  retval 1        cycles=      175
+at:      903 ,core  0 : task f5               scheduled  
+at:      977 ,core  0 : task f5               terminated  retval 1        cycles=      275
+at:      995 ,core  0 : task dupf1            scheduled   iteration    0
+at:     1032 ,core  1 : task dupf1            scheduled   iteration    1
+at:     1051 ,core  2 : task dupf1            scheduled   iteration    2
+at:     1069 ,core  3 : task dupf1            scheduled   iteration    3
+at:     1087 ,core  4 : task dupf1            scheduled   iteration    4
+at:     1106 ,core  5 : task dupf1            scheduled   iteration    5
+at:     1124 ,core  6 : task dupf1            scheduled   iteration    6
+at:     1143 ,core  7 : task dupf1            scheduled   iteration    7
+at:     1180 ,core  8 : task dupf1            scheduled   iteration    8
+at:     1198 ,core  9 : task dupf1            scheduled   iteration    9
+at:     1216 ,core 10 : task dupf1            scheduled   iteration   10
+at:     1235 ,core 11 : task dupf1            scheduled   iteration   11
+at:     1253 ,core 12 : task dupf1            scheduled   iteration   12
+at:     1272 ,core 13 : task dupf1            scheduled   iteration   13
+at:     1364 ,core 14 : task dupf1            scheduled   iteration   14
+at:     1382 ,core  0 : task dupf1            terminated  iteration    0  cycles=      145
+at:     1419 ,core  1 : task dupf1            terminated  iteration    1  cycles=      145
+at:     1438 ,core  2 : task dupf1            terminated  iteration    2  cycles=      145
+at:     1456 ,core  3 : task dupf1            terminated  iteration    3  cycles=      145
+at:     1493 ,core  4 : task dupf1            terminated  iteration    4  cycles=      145
+at:     1511 ,core  5 : task dupf1            terminated  iteration    5  cycles=      145
+at:     1530 ,core  6 : task dupf1            terminated  iteration    6  cycles=      145
+at:     1548 ,core  7 : task dupf1            terminated  iteration    7  cycles=      145
+at:     1585 ,core  8 : task dupf1            terminated  iteration    8  cycles=      145
+at:     1806 ,core  9 : task dupf1            terminated  iteration    9  cycles=      145
+at:     1825 ,core 10 : task dupf1            terminated  iteration   10  cycles=      145
+at:     1862 ,core 11 : task dupf1            terminated  iteration   11  cycles=      145
+at:     1880 ,core 12 : task dupf1            terminated  iteration   12  cycles=      145
+at:     1898 ,core 13 : task dupf1            terminated  iteration   13  cycles=      145
+at:     1935 ,core 14 : task dupf1            terminated  iteration   14  cycles=      145
+at:     1935 ,core 14 : task dupf1            terminated
+at:     1954 ,core 14 : task dupf4            scheduled   iteration    0
+at:     1991 ,core 15 : task dupf4            scheduled   iteration    1
+at:     2009 ,core  0 : task dupf4            scheduled   iteration    2
+at:     2027 ,core  1 : task dupf4            scheduled   iteration    3
+at:     2046 ,core  2 : task dupf4            scheduled   iteration    4
+at:     2064 ,core  3 : task dupf4            scheduled   iteration    5
+at:     2083 ,core  4 : task dupf4            scheduled   iteration    6
+at:     2120 ,core  5 : task dupf4            scheduled   iteration    7
+at:     2138 ,core  6 : task dupf4            scheduled   iteration    8
+at:     2156 ,core  7 : task dupf4            scheduled   iteration    9
+at:     2175 ,core  8 : task dupf4            scheduled   iteration   10
+at:     2193 ,core  9 : task dupf4            scheduled   iteration   11
+at:     2212 ,core 10 : task dupf4            scheduled   iteration   12
+at:     2230 ,core 11 : task dupf4            scheduled   iteration   13
+at:     2267 ,core 12 : task dupf4            scheduled   iteration   14
+at:     2285 ,core 13 : task dupf4            scheduled   iteration   15
+at:     2304 ,core 14 : task dupf4            terminated  iteration    0  cycles=      145
+at:     2322 ,core 14 : task dupf4            scheduled   iteration   16
+at:     2341 ,core 15 : task dupf4            terminated  iteration    1  cycles=      145
+at:     2359 ,core 15 : task dupf4            scheduled   iteration   17
+at:     2378 ,core  0 : task dupf4            terminated  iteration    2  cycles=      145
+at:     2396 ,core  0 : task dupf4            scheduled   iteration   18
+at:     2414 ,core  1 : task dupf4            terminated  iteration    3  cycles=      145
+at:     2433 ,core  1 : task dupf4            scheduled   iteration   19
+at:     2470 ,core  2 : task dupf4            terminated  iteration    4  cycles=      145
+at:     2488 ,core  2 : task dupf4            scheduled   iteration   20
+at:     2507 ,core  3 : task dupf4            terminated  iteration    5  cycles=      145
+at:     2525 ,core  3 : task dupf4            scheduled   iteration   21
+at:     2544 ,core  4 : task dupf4            terminated  iteration    6  cycles=      145
+at:     2562 ,core  4 : task dupf4            scheduled   iteration   22
+at:     2580 ,core  5 : task dupf4            terminated  iteration    7  cycles=      145
+at:     2599 ,core  5 : task dupf4            scheduled   iteration   23
+at:     2617 ,core  6 : task dupf4            terminated  iteration    8  cycles=      145
+at:     2636 ,core  6 : task dupf4            scheduled   iteration   24
+at:     2673 ,core  7 : task dupf4            terminated  iteration    9  cycles=      145
+at:     2691 ,core  7 : task dupf4            scheduled   iteration   25
+at:     2709 ,core  8 : task dupf4            terminated  iteration   10  cycles=      145
+at:     2728 ,core  8 : task dupf4            scheduled   iteration   26
+at:     2746 ,core  9 : task dupf4            terminated  iteration   11  cycles=      145
+at:     2765 ,core  9 : task dupf4            scheduled   iteration   27
+at:     2783 ,core 10 : task dupf4            terminated  iteration   12  cycles=      145
+at:     2802 ,core 10 : task dupf4            scheduled   iteration   28
+at:     2820 ,core 11 : task dupf4            terminated  iteration   13  cycles=      145
+at:     2838 ,core 11 : task dupf4            scheduled   iteration   29
+at:     2967 ,core 12 : task dupf4            terminated  iteration   14  cycles=      145
+at:     2986 ,core 13 : task dupf4            terminated  iteration   15  cycles=      145
+at:     3023 ,core 14 : task dupf4            terminated  iteration   16  cycles=      145
+at:     3041 ,core 15 : task dupf4            terminated  iteration   17  cycles=      145
+at:     3060 ,core  0 : task dupf4            terminated  iteration   18  cycles=      145
+at:     3096 ,core  1 : task dupf4            terminated  iteration   19  cycles=      145
+at:     3115 ,core  2 : task dupf4            terminated  iteration   20  cycles=      145
+at:     3133 ,core  3 : task dupf4            terminated  iteration   21  cycles=      145
+at:     3152 ,core  4 : task dupf4            terminated  iteration   22  cycles=      145
+at:     3189 ,core  5 : task dupf4            terminated  iteration   23  cycles=      145
+at:     3207 ,core  6 : task dupf4            terminated  iteration   24  cycles=      145
+at:     3226 ,core  7 : task dupf4            terminated  iteration   25  cycles=      145
+at:     3244 ,core  8 : task dupf4            terminated  iteration   26  cycles=      145
+at:     3281 ,core  9 : task dupf4            terminated  iteration   27  cycles=      145
+at:     3299 ,core 10 : task dupf4            terminated  iteration   28  cycles=      145
+at:     3318 ,core 11 : task dupf4            terminated  iteration   29  cycles=      145
+at:     3336 ,core 11 : task dupf4            terminated
+at:     3355 ,core 11 : task dupf3            scheduled   iteration    0
+at:     3373 ,core 12 : task dupf3            scheduled   iteration    1
+at:     3410 ,core 13 : task dupf3            scheduled   iteration    2
+at:     3428 ,core 14 : task dupf3            scheduled   iteration    3
+at:     3447 ,core 15 : task dupf3            scheduled   iteration    4
+at:     3465 ,core  0 : task dupf3            scheduled   iteration    5
+at:     3484 ,core  1 : task dupf3            scheduled   iteration    6
+at:     3502 ,core  2 : task dupf3            scheduled   iteration    7
+at:     3520 ,core  3 : task dupf3            scheduled   iteration    8
+at:     3539 ,core  4 : task dupf3            scheduled   iteration    9
+at:     3576 ,core  5 : task dupf3            scheduled   iteration   10
+at:     3594 ,core  6 : task dupf3            scheduled   iteration   11
+at:     3613 ,core  7 : task dupf3            scheduled   iteration   12
+at:     3631 ,core  8 : task dupf3            scheduled   iteration   13
+at:     3649 ,core  9 : task dupf3            scheduled   iteration   14
+at:     3668 ,core 10 : task dupf3            scheduled   iteration   15
+at:     3686 ,core 11 : task dupf3            terminated  iteration    0  cycles=     2151
+at:     3705 ,core 11 : task dupf3            scheduled   iteration   16
+at:     3742 ,core 12 : task dupf3            terminated  iteration    1  cycles=     2119
+at:     3760 ,core 12 : task dupf3            scheduled   iteration   17
+at:     3778 ,core 13 : task dupf3            terminated  iteration    2  cycles=     2135
+at:     3797 ,core 13 : task dupf3            scheduled   iteration   18
+at:     3815 ,core 14 : task dupf3            terminated  iteration    3  cycles=   111073
+at:     3834 ,core 14 : task dupf3            scheduled   iteration   19
+at:     3852 ,core 15 : task dupf3            terminated  iteration    4  cycles=   111041
+at:     3871 ,core  0 : task dupf3            terminated  iteration    5  cycles=   111041
+at:     3907 ,core  1 : task dupf3            terminated  iteration    6  cycles=   111105
+at:     3926 ,core  2 : task dupf3            terminated  iteration    7  cycles=   111073
+at:     3944 ,core  3 : task dupf3            terminated  iteration    8  cycles=   111009
+at:     3981 ,core  4 : task dupf3            terminated  iteration    9  cycles=   111073
+at:     4000 ,core  5 : task dupf3            terminated  iteration   10  cycles=   111025
+at:     4018 ,core  6 : task dupf3            terminated  iteration   11  cycles=   110993
+at:     4037 ,core  7 : task dupf3            terminated  iteration   12  cycles=   111009
+at:     4166 ,core  8 : task dupf3            terminated  iteration   13  cycles=   111089
+at:     4202 ,core  9 : task dupf3            terminated  iteration   14  cycles=   111009
+at:     4221 ,core 10 : task dupf3            terminated  iteration   15  cycles=   111009
+at:     4239 ,core 11 : task dupf3            terminated  iteration   16  cycles=   111041
+at:     4258 ,core 12 : task dupf3            terminated  iteration   17  cycles=   111025
+at:     4295 ,core 13 : task dupf3            terminated  iteration   18  cycles=   111137
+at:     4313 ,core 14 : task dupf3            terminated  iteration   19  cycles=   111009
+at:     4331 ,core 14 : task dupf3            terminated
+at:     4350 ,core 14 : task dupf2            scheduled   iteration    0
+at:     4368 ,core 15 : task dupf2            scheduled   iteration    1
+at:     4387 ,core  0 : task dupf2            scheduled   iteration    2
+at:     4405 ,core  1 : task dupf2            scheduled   iteration    3
+at:     4424 ,core  2 : task dupf2            scheduled   iteration    4
+at:     4460 ,core  3 : task dupf2            scheduled   iteration    5
+at:     4479 ,core  4 : task dupf2            scheduled   iteration    6
+at:     4497 ,core  5 : task dupf2            scheduled   iteration    7
+at:     4516 ,core  6 : task dupf2            scheduled   iteration    8
+at:     4534 ,core  7 : task dupf2            scheduled   iteration    9
+at:     4571 ,core 14 : task dupf2            terminated  iteration    0  cycles=      145
+at:     4608 ,core 15 : task dupf2            terminated  iteration    1  cycles=      145
+at:     4626 ,core  0 : task dupf2            terminated  iteration    2  cycles=      145
+at:     4645 ,core  1 : task dupf2            terminated  iteration    3  cycles=      145
+at:     4663 ,core  2 : task dupf2            terminated  iteration    4  cycles=      145
+at:     4700 ,core  3 : task dupf2            terminated  iteration    5  cycles=      145
+at:     4719 ,core  4 : task dupf2            terminated  iteration    6  cycles=      145
+at:     4737 ,core  5 : task dupf2            terminated  iteration    7  cycles=      145
+at:     4755 ,core  6 : task dupf2            terminated  iteration    8  cycles=      145
+at:     4792 ,core  7 : task dupf2            terminated  iteration    9  cycles=      145
+at:     4811 ,core  7 : task dupf2            terminated
+at:  3724365 -----------------------------Task Map DONE--------------------------------
+at:  3724402 -----------------------------CoresNum=16--------------------------------

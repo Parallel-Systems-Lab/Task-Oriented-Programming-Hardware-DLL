@@ -1,0 +1,5 @@
+regular task init1()
+duplicable task evaluate1(init1/fu )
+regular task config_par(evaluate1/f | par_res/f)
+duplicable task par_res(config_par/f0)
+regular task finish1(config_par/f1)

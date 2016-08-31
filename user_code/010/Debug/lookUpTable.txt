@@ -1,0 +1,4 @@
+init 000009bc
+dup_B 00000a80
+dup_A 00000a4c
+finish 00000ab4

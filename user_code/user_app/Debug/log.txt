@@ -1,0 +1,144 @@
+e-usercode.srec ended OK
+task_map binfile set as |./table.bin|
+DEBUG level set to 3
+due to hardwere limits num of cores set to 16 
+
+SETTING INPUTS
+
+ dumping INPUTS
+start loop 
+Line 0: -1 & (-1 | -1) conditions: 1 1 1 duplicate ITERATIONS: -1 -1 0
+ Line 1: 0 & (-1 | -1) conditions: 3 1 1 duplicate ITERATIONS: 0 0 0
+ Line 2: 1 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 3: 2 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 4: 6 & (-1 | -1) conditions: 12 1 1 duplicate ITERATIONS: 4 0 0
+ Line 5: 6 & (2 | -1) conditions: 1 10 0 duplicate ITERATIONS: 3 0 0
+ Line 6: 5 & (2 | -1) conditions: 1 10 0 duplicate ITERATIONS: 3 0 0
+ Line 7: 6 & (2 | -1) conditions: 6 10 0 duplicate ITERATIONS: 3 0 0
+ Line 8: 4 & (6 | 5) conditions: 10 3 10 duplicate ITERATIONS: 0 0 0
+ Line 9: 4 & (5 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ Line 10: 6 & (7 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ Line 11: 9 & (10 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ ----------tick tock test                  ----------------------------------------------
+at:          Task Map execution starts-------------------------------------------------
+at:        9 ,core  0 : task init             scheduled  
+at:       18 ,core  1 : task foo              scheduled  
+at:          : num of cores set to 2    ---!!!!!!!!!!!!!!-----------
+at:       36 ,core  1 : task foo              terminated  retval 0        cycles=        0
+at:       46 ,core  1 : task dumb             EXECUTED    ----(task is type dummy)------
+at:       55 ,core  1 : task blabla           scheduled   iteration    0
+at:       64 ,core  0 : task macintosh        SetQuota        15          --------------
+at:       82 ,core  1 : task blabla           terminated  iteration    0  cycles=        0
+at:       82 ,core  1 : task blabla           scheduled   iteration    1
+at:       92 ,core  0 : task dupli            SetQuota        10          --------------
+at:      110 ,core  1 : task blabla           terminated  iteration    1  cycles=        0
+at:      119 ,core  1 : task blabla           terminated
+at:      119 ,core  1 : task dupli            scheduled   iteration    0
+at:      129 ,core  0 : task starter          SetQuota        20          --------------
+at:      138 ,core  1 : task dupli            terminated  iteration    0  cycles=        0
+at:      147 ,core  1 : task dupli            scheduled   iteration    1
+at:      165 ,core  0 : task blabla           SetQuota       200          --------------
+at:      165 ,core  0 : task init             terminated  retval 1        cycles=        0
+at:      175 ,core  0 : task dupli            scheduled   iteration    2
+at:      184 ,core  1 : task dupli            terminated  iteration    1  cycles=        0
+at:      193 ,core  1 : task macintosh        scheduled   iteration    0
+at:      202 ,core  0 : task dupli            terminated  iteration    2  cycles=        0
+at:      211 ,core  0 : task macintosh        scheduled   iteration    1
+at:      221 ,core  1 : task macintosh        terminated  iteration    0  cycles=        0
+at:      221 ,core  1 : task dupli            scheduled   iteration    3
+at:      230 ,core  0 : task macintosh        terminated  iteration    1  cycles=        0
+at:      239 ,core  0 : task dupli            scheduled   iteration    4
+at:      248 ,core  1 : task dupli            terminated  iteration    3  cycles=        0
+at:      258 ,core  1 : task macintosh        scheduled   iteration    2
+at:      267 ,core  0 : task dupli            terminated  iteration    4  cycles=        0
+at:      267 ,core  0 : task macintosh        scheduled   iteration    3
+at:      276 ,core  1 : task macintosh        terminated  iteration    2  cycles=        0
+at:      285 ,core  1 : task dupli            scheduled   iteration    5
+at:      304 ,core  1 : task dupli            terminated  iteration    5  cycles=        0
+at:      313 ,core  1 : task macintosh        scheduled   iteration    4
+at:      377 ,core  0 : task macintosh        terminated  iteration    3  cycles=        0
+at:      387 ,core  0 : task dupli            scheduled   iteration    6
+at:      451 ,core  1 : task macintosh        terminated  iteration    4  cycles=        0
+at:      460 ,core  1 : task foobar           scheduled  
+at:      469 ,core  0 : task dupli            terminated  iteration    6  cycles=        0
+at:      469 ,core  0 : task dupli            scheduled   iteration    7
+at:      488 ,core  0 : task dupli            terminated  iteration    7  cycles=        0
+at:      497 ,core  0 : task macintosh        scheduled   iteration    5
+at:      562 ,core  1 : task foobar           terminated  retval 1        cycles=        0
+at:      571 ,core  1 : task macintosh        scheduled   iteration    6
+at:      608 ,core  0 : task macintosh        terminated  iteration    5  cycles=        0
+at:      617 ,core  0 : task dupli            scheduled   iteration    8
+at:      635 ,core  0 : task dupli            terminated  iteration    8  cycles=        0
+at:      635 ,core  0 : task macintosh        scheduled   iteration    7
+at:      681 ,core  1 : task macintosh        terminated  iteration    6  cycles=        0
+at:      691 ,core  1 : task dupli            scheduled   iteration    9
+at:      709 ,core  1 : task dupli            terminated  iteration    9  cycles=        0
+at:      709 ,core  1 : task dupli            terminated
+at:      718 ,core  1 : task macintosh        scheduled   iteration    8
+at:      746 ,core  0 : task macintosh        terminated  iteration    7  cycles=        0
+at:      755 ,core  0 : task macintosh        scheduled   iteration    9
+at:      829 ,core  1 : task macintosh        terminated  iteration    8  cycles=        0
+at:      838 ,core  1 : task macintosh        scheduled   iteration   10
+at:      857 ,core  0 : task macintosh        terminated  iteration    9  cycles=        0
+at:      866 ,core  0 : task macintosh        scheduled   iteration   11
+at:      939 ,core  1 : task macintosh        terminated  iteration   10  cycles=        0
+at:      949 ,core  1 : task macintosh        scheduled   iteration   12
+at:      976 ,core  0 : task macintosh        terminated  iteration   11  cycles=        0
+at:      986 ,core  0 : task macintosh        scheduled   iteration   13
+at:     1059 ,core  1 : task macintosh        terminated  iteration   12  cycles=        0
+at:     1059 ,core  1 : task macintosh        scheduled   iteration   14
+at:     1087 ,core  0 : task macintosh        terminated  iteration   13  cycles=        0
+at:     1096 ,core  0 : task starter          scheduled   iteration    0
+at:     1124 ,core  0 : task starter          terminated  iteration    0  cycles=        0
+at:     1133 ,core  0 : task starter          scheduled   iteration    1
+at:     1151 ,core  0 : task starter          terminated  iteration    1  cycles=        0
+at:     1161 ,core  0 : task starter          scheduled   iteration    2
+at:     1170 ,core  1 : task macintosh        terminated  iteration   14  cycles=        0
+at:     1179 ,core  1 : task macintosh        terminated
+at:     1188 ,core  1 : task starter          scheduled   iteration    3
+at:     1198 ,core  0 : task starter          terminated  iteration    2  cycles=        0
+at:     1198 ,core  0 : task starter          scheduled   iteration    4
+at:     1207 ,core  1 : task starter          terminated  iteration    3  cycles=        0
+at:     1216 ,core  1 : task starter          scheduled   iteration    5
+at:     1225 ,core  0 : task starter          terminated  iteration    4  cycles=        0
+at:     1234 ,core  0 : task starter          scheduled   iteration    6
+at:     1244 ,core  1 : task starter          terminated  iteration    5  cycles=        0
+at:     1253 ,core  1 : task starter          scheduled   iteration    7
+at:     1253 ,core  0 : task starter          terminated  iteration    6  cycles=        0
+at:     1262 ,core  0 : task starter          scheduled   iteration    8
+at:     1271 ,core  1 : task starter          terminated  iteration    7  cycles=        0
+at:     1280 ,core  1 : task starter          scheduled   iteration    9
+at:     1290 ,core  0 : task starter          terminated  iteration    8  cycles=        0
+at:     1327 ,core  0 : task starter          scheduled   iteration   10
+at:     1336 ,core  1 : task starter          terminated  iteration    9  cycles=        0
+at:     1345 ,core  1 : task starter          scheduled   iteration   11
+at:     1354 ,core  0 : task starter          terminated  iteration   10  cycles=        0
+at:     1363 ,core  0 : task starter          scheduled   iteration   12
+at:     1363 ,core  1 : task starter          terminated  iteration   11  cycles=        0
+at:     1373 ,core  1 : task starter          scheduled   iteration   13
+at:     1382 ,core  0 : task starter          terminated  iteration   12  cycles=        0
+at:     1391 ,core  0 : task starter          scheduled   iteration   14
+at:     1400 ,core  1 : task starter          terminated  iteration   13  cycles=        0
+at:     1409 ,core  1 : task starter          scheduled   iteration   15
+at:     1419 ,core  0 : task starter          terminated  iteration   14  cycles=        0
+at:     1419 ,core  0 : task starter          scheduled   iteration   16
+at:     1428 ,core  1 : task starter          terminated  iteration   15  cycles=        0
+at:     1437 ,core  1 : task starter          scheduled   iteration   17
+at:     1446 ,core  0 : task starter          terminated  iteration   16  cycles=        0
+at:     1456 ,core  0 : task starter          scheduled   iteration   18
+at:     1465 ,core  1 : task starter          terminated  iteration   17  cycles=        0
+at:     1465 ,core  1 : task starter          scheduled   iteration   19
+at:     1483 ,core  0 : task starter          terminated  iteration   18  cycles=        0
+at:     1483 ,core  0 : task bar              scheduled  
+at:     1492 ,core  1 : task starter          terminated  iteration   19  cycles=        0
+at:     1502 ,core  1 : task starter          terminated
+at:     1502 ,core  1 : task dumb1            EXECUTED    ----(task is type dummy)------
+at:     1511 ,core  1 : task dumb2            EXECUTED    ----(task is type dummy)------
+at:     1520 ,core  1 : task finish           scheduled  
+at:          : num of cores set to 16    ---!!!!!!!!!!!!!!-----------
+at:     1557 ,core  1 : task finish           terminated  retval 0        cycles=        0
+at:     2515 ,core  0 : task bar              terminated  retval 1        cycles=        0
+at:  2099402 -----------------------------Task Map DONE--------------------------------
+at:  2099411 -----------------------------CoresNum=16--------------------------------
+
+ dumping OUTPUT

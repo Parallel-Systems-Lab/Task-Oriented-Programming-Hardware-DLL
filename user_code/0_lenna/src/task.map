@@ -1,0 +1,6 @@
+regular task init()
+regular task rbalance(init/fu)
+regular task gbalance(init/fu)
+regular task bbalance(init/fu)
+dummy task RnG(rbalance/fu & gbalance/fu)
+regular task finish(bbalance/fu & RnG/f)

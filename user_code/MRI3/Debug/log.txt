@@ -1,0 +1,43 @@
+e-usercode.srec ended OK
+task_map binfile set as |./table.bin|
+DEBUG level set to 3
+due to hardwere limits num of cores set to 16 
+
+SETTING INPUTS
+
+ dumping INPUTS
+start loop 
+Line 0: -1 & (-1 | -1) conditions: 1 1 1 duplicate ITERATIONS: -1 -1 0
+ Line 1: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 2: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 3: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 4: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 5: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 6: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 7: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 8: 7 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ ----------tick tock test                  ----------------------------------------------
+at:          Task Map execution starts-------------------------------------------------
+at:        9 ,core  0 : task init             scheduled  
+at:          : num of cores set to 16    ---!!!!!!!!!!!!!!-----------
+at:     1050 ,core  0 : task init             terminated  retval 0        cycles=        0
+at:     1059 ,core  0 : task user1_hw1        scheduled  
+at:     1059 ,core  1 : task user1_hw2        scheduled  
+at:     1069 ,core  2 : task user1_hw3        scheduled  
+at:     1078 ,core  3 : task user1_hw4        scheduled  
+at:     1078 ,core  4 : task user1_hw5        scheduled  
+at:     1087 ,core  5 : task user1_hw6        scheduled  
+at:     1096 ,core  6 : task user1_hw7        scheduled  
+at:     1170 ,core  0 : task user1_hw1        terminated  retval 0        cycles=        0
+at:     1179 ,core  1 : task user1_hw2        terminated  retval 0        cycles=        0
+at:     1179 ,core  2 : task user1_hw3        terminated  retval 0        cycles=        0
+at:     1188 ,core  3 : task user1_hw4        terminated  retval 0        cycles=        0
+at:     1198 ,core  4 : task user1_hw5        terminated  retval 0        cycles=        0
+at:     1207 ,core  5 : task user1_hw6        terminated  retval 0        cycles=        0
+at:     1216 ,core  6 : task user1_hw7        terminated  retval 0        cycles=        0
+at:     1216 ,core  6 : task finish           scheduled  
+at:     1373 ,core  6 : task finish           terminated  retval 0        cycles=        0
+at:  1943603 -----------------------------Task Map DONE--------------------------------
+at:  1943603 -----------------------------CoresNum=16--------------------------------
+
+ dumping OUTPUT

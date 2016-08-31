@@ -1,0 +1,5 @@
+regular task init3()
+duplicable task add3(init3/fu)
+regular task while_cond3(add3/f | pair_add3/f)
+duplicable task pair_add3(while_cond3/f1)
+regular task finish3(while_cond3/f0)

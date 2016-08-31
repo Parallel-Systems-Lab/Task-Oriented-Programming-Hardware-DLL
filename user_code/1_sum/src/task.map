@@ -1,0 +1,4 @@
+regular task init2()
+duplicable task add2(init2/fu)
+regular task sumation2(add2/f)
+regular task finish2(sumation2/fu)

@@ -1,0 +1,6 @@
+init 000008ec
+rbalance 00000900
+gbalance 00000b30
+bbalance 00000d4c
+RnG
+finish 00000f7c

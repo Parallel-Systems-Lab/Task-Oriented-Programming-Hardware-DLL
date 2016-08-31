@@ -1,0 +1,13 @@
+init 000008d8
+batch1 00000958
+step1 00000990
+batch2 00000a20
+step2 00000a58
+batch3 00000a90
+batch4 00000ac8
+batch5 00000b00
+batch6 00000b38
+dumb1
+dumb2
+step3 00000b70
+finish 00000be4

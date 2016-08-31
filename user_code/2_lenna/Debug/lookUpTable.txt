@@ -1,0 +1,9 @@
+init 000008ec
+rbuildlut 00000988
+gbuildlut 00000a9c
+bbuildlut 00000bb0
+rbalance 00000cc4
+gbalance 00000dd4
+bbalance 00000d4c
+RnG
+finish 00000e5c

@@ -1,0 +1,280 @@
+RECORD ENTRY:	The following event was recorded at 20:23:05 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.000368603 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.000387076 seconds.
+				A Hardware DLL data structure is created.
+
+RECORD ENTRY:	The following event was recorded at 20:23:05 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.001326970 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.001327116 seconds.
+				A Hardware DLL data structure is destroyed.
+
+RECORD ENTRY:	The following event was recorded at 20:23:05 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.000184301 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.000184321 seconds.
+				A Hardware DLL data structure is created.
+
+RECORD ENTRY:	The following event was recorded at 20:23:05 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.010320875 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.010285145 seconds.
+				Hardware accelerator 000 is loaded into reconfigurable partition 04.
+
+RECORD ENTRY:	The following event was recorded at 20:23:05 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.019793964 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.019151014 seconds.
+				Hardware accelerator 000 is unloaded from reconfigurable partition 04.
+
+RECORD ENTRY:	The following event was recorded at 20:23:05 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.020715471 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.020091054 seconds.
+				A Hardware DLL data structure is destroyed.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.000202731 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.000184321 seconds.
+				A Hardware DLL data structure is created.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.001142668 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.001124361 seconds.
+				Attempting to load hardware accelerator 000.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.009159776 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.009105487 seconds.
+				Hardware accelerator 000 is loaded into reconfigurable partition 04.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.018411704 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.017768603 seconds.
+				Hardware accelerator 000 is unloaded from reconfigurable partition 04.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.019351641 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.018708643 seconds.
+				A Hardware DLL data structure is destroyed.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.000184302 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.000202754 seconds.
+				A Hardware DLL data structure is created.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.008846465 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.008865869 seconds.
+				Hardware accelerator 000 is loaded into reconfigurable partition 04.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.016937294 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.016920723 seconds.
+				Hardware accelerator 000 is loaded into reconfigurable partition 05.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.024733241 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.024662229 seconds.
+				Hardware accelerator 000 is loaded into reconfigurable partition 07.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.033653426 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.033528098 seconds.
+				Hardware accelerator 000 is loaded into reconfigurable partition 08.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.039495778 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.039315797 seconds.
+				Hardware accelerator 000 is loaded into reconfigurable partition 10.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.047291725 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.047075736 seconds.
+				Hardware accelerator 000 is loaded into reconfigurable partition 11.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.056009179 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.055720418 seconds.
+				Hardware accelerator 000 is loaded into reconfigurable partition 12.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.061114326 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.060789262 seconds.
+				Hardware accelerator 000 is loaded into reconfigurable partition 13.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.066735517 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.066355775 seconds.
+				Hardware accelerator 000 is loaded into reconfigurable partition 14.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.071840664 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.071424620 seconds.
+				Hardware accelerator 000 is loaded into reconfigurable partition 01.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.080134225 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.079147695 seconds.
+				Hardware accelerator 000 is loaded into reconfigurable partition 00.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.088575226 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.087552759 seconds.
+				Hardware accelerator 000 is loaded into reconfigurable partition 03.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.095633968 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.094593844 seconds.
+				Hardware accelerator 000 is loaded into reconfigurable partition 02.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.100794405 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.099717984 seconds.
+				Hardware accelerator 000 is loaded into reconfigurable partition 09.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.109345988 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.108215210 seconds.
+				Hardware accelerator 000 is unloaded from reconfigurable partition 04.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.117178795 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.116067310 seconds.
+				Hardware accelerator 000 is unloaded from reconfigurable partition 05.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.124882591 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.123771953 seconds.
+				Hardware accelerator 000 is unloaded from reconfigurable partition 07.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.133747485 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.132600958 seconds.
+				Hardware accelerator 000 is unloaded from reconfigurable partition 08.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.139479257 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.138333360 seconds.
+				Hardware accelerator 000 is unloaded from reconfigurable partition 10.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.147201484 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.146001139 seconds.
+				Hardware accelerator 000 is unloaded from reconfigurable partition 11.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.155863647 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.154627390 seconds.
+				Hardware accelerator 000 is unloaded from reconfigurable partition 12.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.160839783 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.159548777 seconds.
+				Hardware accelerator 000 is unloaded from reconfigurable partition 13.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.166553125 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.165225883 seconds.
+				Hardware accelerator 000 is unloaded from reconfigurable partition 14.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.171529261 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.170202566 seconds.
+				Hardware accelerator 000 is unloaded from reconfigurable partition 01.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.179196197 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.177815049 seconds.
+				Hardware accelerator 000 is unloaded from reconfigurable partition 00.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.187766209 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.186349139 seconds.
+				Hardware accelerator 000 is unloaded from reconfigurable partition 03.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.194659079 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.193224334 seconds.
+				Hardware accelerator 000 is unloaded from reconfigurable partition 02.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.199653646 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.198219450 seconds.
+				Hardware accelerator 000 is unloaded from reconfigurable partition 09.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.200556722 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.199141058 seconds.
+				A Hardware DLL data structure is destroyed.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.000184301 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.000202753 seconds.
+				A Hardware DLL data structure is created.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.001161098 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.001161226 seconds.
+				Attempting to load hardware accelerators , 000.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.086197738 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.086188782 seconds.
+				Hardware accelerators , 000 are loaded into reconfigurable partitions , 09 respectively.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.172413906 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.172395996 seconds.
+				Hardware accelerators , 000 are unloaded from reconfigurable partitions , 09 respectively.
+
+RECORD ENTRY:	The following event was recorded at 20:23:06 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.173353843 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.173354469 seconds.
+				A Hardware DLL data structure is destroyed.
+
+RECORD ENTRY:	The following event was recorded at 20:23:07 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.000184302 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.000184322 seconds.
+				A Hardware DLL data structure is created.
+
+RECORD ENTRY:	The following event was recorded at 20:23:07 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.001142669 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.001142794 seconds.
+				Attempting to load hardware accelerators , 005.
+
+RECORD ENTRY:	The following event was recorded at 20:23:07 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.041559953 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.041380200 seconds.
+				Hardware accelerators , 005 are loaded into reconfigurable partitions , 00 respectively.
+
+RECORD ENTRY:	The following event was recorded at 20:23:07 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.082327411 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.082078409 seconds.
+				Hardware accelerators , 005 are unloaded from reconfigurable partitions , 00 respectively.
+
+RECORD ENTRY:	The following event was recorded at 20:23:07 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.083267347 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.083018449 seconds.
+				A Hardware DLL data structure is destroyed.
+
+RECORD ENTRY:	The following event was recorded at 20:23:07 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.000184301 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.000202753 seconds.
+				A Hardware DLL data structure is created.
+
+RECORD ENTRY:	The following event was recorded at 20:23:07 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.001161098 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.001161226 seconds.
+				Attempting to load hardware accelerators , 002.
+
+RECORD ENTRY:	The following event was recorded at 20:23:07 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.099762317 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.098870109 seconds.
+				Hardware accelerators , 002 are loaded into reconfigurable partitions , 12 respectively.
+
+RECORD ENTRY:	The following event was recorded at 20:23:07 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.196870695 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.195749544 seconds.
+				Hardware accelerators , 002 are unloaded from reconfigurable partitions , 12 respectively.
+
+RECORD ENTRY:	The following event was recorded at 20:23:07 (28/12/2016):
+				The elapsed time since the creation of the Hardware DLL data structure: 0.197865922 seconds.
+				The CPU time since the creation of the Hardware DLL data structure: 0.196763313 seconds.
+				A Hardware DLL data structure is destroyed.
+

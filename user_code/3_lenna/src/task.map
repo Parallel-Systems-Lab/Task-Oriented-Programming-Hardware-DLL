@@ -1,0 +1,4 @@
+regular task init()
+duplicable task buildlut(init/fu)
+duplicable task balance(buildlut/f)
+regular task finish(balance/f )

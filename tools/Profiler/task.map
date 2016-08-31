@@ -1,0 +1,6 @@
+regular task init()
+duplicable task rbalance(init/fu)
+duplicable task gbalance(init/fu)
+duplicable task bbalance(init/fu)
+dummy task RnG(rbalance/f & gbalance/f)
+regular task finish(bbalance/f & RnG/f)

@@ -1,0 +1,134 @@
+
+opening input file ..//input//lennaR_init.txt
+
+opening input file ..//input//lennaG_init.txt
+
+opening input file ..//input//lennaB_init.txt
+init ended OK
+task_map binfile set as |./table.bin|
+DEBUG level set to 3
+due to hardwere limits num of cores set to 16 
+
+SETTING INPUTS
+
+ dumping INPUTS
+start loop 
+Line 0: -1 & (-1 | -1) conditions: 1 1 1 duplicate ITERATIONS: -1 -1 0
+ Line 1: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 2: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 3: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 4: 1 & (2 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ Line 5: 3 & (4 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ ----------tick tock test                  ----------------------------------------------
+at:          Task Map execution starts-------------------------------------------------
+at:       18 ,core  0 : task init             scheduled  
+at:       64 ,core  0 : task rbalance         SetQuota        16          --------------
+at:       92 ,core  0 : task gbalance         SetQuota        16          --------------
+at:      129 ,core  0 : task bbalance         SetQuota        16          --------------
+at:      156 ,core  0 : task init             terminated  retval 0        cycles=        0
+at:      165 ,core  0 : task rbalance         scheduled   iteration    0
+at:      175 ,core  1 : task rbalance         scheduled   iteration    1
+at:      184 ,core  2 : task rbalance         scheduled   iteration    2
+at:      184 ,core  3 : task rbalance         scheduled   iteration    3
+at:      193 ,core  4 : task rbalance         scheduled   iteration    4
+at:      202 ,core  5 : task rbalance         scheduled   iteration    5
+at:      202 ,core  6 : task rbalance         scheduled   iteration    6
+at:      211 ,core  7 : task rbalance         scheduled   iteration    7
+at:      221 ,core  8 : task rbalance         scheduled   iteration    8
+at:      221 ,core  9 : task rbalance         scheduled   iteration    9
+at:      230 ,core 10 : task rbalance         scheduled   iteration   10
+at:      239 ,core 11 : task rbalance         scheduled   iteration   11
+at:      239 ,core 12 : task rbalance         scheduled   iteration   12
+at:      248 ,core 13 : task rbalance         scheduled   iteration   13
+at:      258 ,core 14 : task rbalance         scheduled   iteration   14
+at:      258 ,core 15 : task rbalance         scheduled   iteration   15
+at:     1575 ,core  0 : task rbalance         terminated  iteration    0  cycles=        0
+at:     1585 ,core  0 : task gbalance         scheduled   iteration    0
+at:     1594 ,core  1 : task rbalance         terminated  iteration    1  cycles=        0
+at:     1594 ,core  1 : task gbalance         scheduled   iteration    1
+at:     1603 ,core  2 : task rbalance         terminated  iteration    2  cycles=        0
+at:     1612 ,core  2 : task gbalance         scheduled   iteration    2
+at:     1612 ,core  3 : task rbalance         terminated  iteration    3  cycles=        0
+at:     1621 ,core  3 : task gbalance         scheduled   iteration    3
+at:     1631 ,core  4 : task rbalance         terminated  iteration    4  cycles=        0
+at:     1631 ,core  4 : task gbalance         scheduled   iteration    4
+at:     1640 ,core  5 : task rbalance         terminated  iteration    5  cycles=        0
+at:     1649 ,core  5 : task gbalance         scheduled   iteration    5
+at:     1649 ,core  6 : task rbalance         terminated  iteration    6  cycles=        0
+at:     1658 ,core  6 : task gbalance         scheduled   iteration    6
+at:     1668 ,core  7 : task rbalance         terminated  iteration    7  cycles=        0
+at:     1668 ,core  7 : task gbalance         scheduled   iteration    7
+at:     1677 ,core  8 : task rbalance         terminated  iteration    8  cycles=        0
+at:     1677 ,core  8 : task gbalance         scheduled   iteration    8
+at:     1686 ,core  9 : task rbalance         terminated  iteration    9  cycles=        0
+at:     1695 ,core  9 : task gbalance         scheduled   iteration    9
+at:     1704 ,core 10 : task rbalance         terminated  iteration   10  cycles=        0
+at:     1704 ,core 10 : task gbalance         scheduled   iteration   10
+at:     1769 ,core 11 : task rbalance         terminated  iteration   11  cycles=        0
+at:     1778 ,core 11 : task gbalance         scheduled   iteration   11
+at:     1787 ,core 12 : task rbalance         terminated  iteration   12  cycles=        0
+at:     1787 ,core 12 : task gbalance         scheduled   iteration   12
+at:     1797 ,core 13 : task rbalance         terminated  iteration   13  cycles=        0
+at:     1806 ,core 13 : task gbalance         scheduled   iteration   13
+at:     1815 ,core 14 : task rbalance         terminated  iteration   14  cycles=        0
+at:     1815 ,core 14 : task gbalance         scheduled   iteration   14
+at:     1824 ,core 15 : task rbalance         terminated  iteration   15  cycles=        0
+at:     1824 ,core 15 : task rbalance         terminated
+at:     1833 ,core 15 : task gbalance         scheduled   iteration   15
+at:     2985 ,core  0 : task gbalance         terminated  iteration    0  cycles=        0
+at:     2995 ,core  0 : task bbalance         scheduled   iteration    0
+at:     3004 ,core  1 : task gbalance         terminated  iteration    1  cycles=        0
+at:     3004 ,core  1 : task bbalance         scheduled   iteration    1
+at:     3013 ,core  2 : task gbalance         terminated  iteration    2  cycles=        0
+at:     3022 ,core  2 : task bbalance         scheduled   iteration    2
+at:     3031 ,core  3 : task gbalance         terminated  iteration    3  cycles=        0
+at:     3031 ,core  3 : task bbalance         scheduled   iteration    3
+at:     3041 ,core  4 : task gbalance         terminated  iteration    4  cycles=        0
+at:     3050 ,core  4 : task bbalance         scheduled   iteration    4
+at:     3050 ,core  5 : task gbalance         terminated  iteration    5  cycles=        0
+at:     3059 ,core  5 : task bbalance         scheduled   iteration    5
+at:     3068 ,core  6 : task gbalance         terminated  iteration    6  cycles=        0
+at:     3068 ,core  6 : task bbalance         scheduled   iteration    6
+at:     3077 ,core  7 : task gbalance         terminated  iteration    7  cycles=        0
+at:     3087 ,core  7 : task bbalance         scheduled   iteration    7
+at:     3114 ,core  8 : task gbalance         terminated  iteration    8  cycles=        0
+at:     3124 ,core  8 : task bbalance         scheduled   iteration    8
+at:     3124 ,core  9 : task gbalance         terminated  iteration    9  cycles=        0
+at:     3133 ,core  9 : task bbalance         scheduled   iteration    9
+at:     3188 ,core 10 : task gbalance         terminated  iteration   10  cycles=        0
+at:     3197 ,core 10 : task bbalance         scheduled   iteration   10
+at:     3225 ,core 11 : task gbalance         terminated  iteration   11  cycles=        0
+at:     3234 ,core 11 : task bbalance         scheduled   iteration   11
+at:     3234 ,core 12 : task gbalance         terminated  iteration   12  cycles=        0
+at:     3243 ,core 12 : task bbalance         scheduled   iteration   12
+at:     3253 ,core 13 : task gbalance         terminated  iteration   13  cycles=        0
+at:     3253 ,core 13 : task bbalance         scheduled   iteration   13
+at:     3262 ,core 14 : task gbalance         terminated  iteration   14  cycles=        0
+at:     3271 ,core 14 : task bbalance         scheduled   iteration   14
+at:     3271 ,core 15 : task gbalance         terminated  iteration   15  cycles=        0
+at:     3280 ,core 15 : task gbalance         terminated
+at:     3280 ,core 15 : task bbalance         scheduled   iteration   15
+at:     4073 ,core  3 : task bbalance         terminated  iteration    3  cycles=        0
+at:     4073 ,core  3 : task RnG              EXECUTED    ----(task is type dummy)------
+at:     4082 ,core  4 : task bbalance         terminated  iteration    4  cycles=        0
+at:     4091 ,core  5 : task bbalance         terminated  iteration    5  cycles=        0
+at:     4100 ,core  6 : task bbalance         terminated  iteration    6  cycles=        0
+at:     4110 ,core  7 : task bbalance         terminated  iteration    7  cycles=        0
+at:     4156 ,core  8 : task bbalance         terminated  iteration    8  cycles=        0
+at:     4165 ,core  9 : task bbalance         terminated  iteration    9  cycles=        0
+at:     4183 ,core  0 : task bbalance         terminated  iteration    0  cycles=        0
+at:     4193 ,core  1 : task bbalance         terminated  iteration    1  cycles=        0
+at:     4202 ,core  2 : task bbalance         terminated  iteration    2  cycles=        0
+at:     4220 ,core 10 : task bbalance         terminated  iteration   10  cycles=        0
+at:     4257 ,core 11 : task bbalance         terminated  iteration   11  cycles=        0
+at:     4257 ,core 12 : task bbalance         terminated  iteration   12  cycles=        0
+at:     4294 ,core 13 : task bbalance         terminated  iteration   13  cycles=        0
+at:     4303 ,core 14 : task bbalance         terminated  iteration   14  cycles=        0
+at:     4312 ,core 15 : task bbalance         terminated  iteration   15  cycles=        0
+at:     4322 ,core 15 : task bbalance         terminated
+at:     4322 ,core 15 : task finish           scheduled  
+at:     4358 ,core 15 : task finish           terminated  retval 0        cycles=        0
+at:  1842956 -----------------------------Task Map DONE--------------------------------
+at:  1842965 -----------------------------CoresNum=16--------------------------------
+
+ dumping OUTPUT

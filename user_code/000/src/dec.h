@@ -1,0 +1,12 @@
+extern void init1(void);
+extern void evaluate1(void);
+extern void finish1(void);
+extern void init2(void);
+extern void add2(void);
+extern void sumation2(void);
+extern void finish2(void);
+extern void init3(void);
+extern void add3(void);
+extern void while_cond3(void);
+extern void pair_add3(void);
+extern void finish3(void);

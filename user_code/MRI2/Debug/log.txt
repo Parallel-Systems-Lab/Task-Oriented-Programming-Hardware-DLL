@@ -1,0 +1,84 @@
+
+task_map binfile set as |./table.bin|
+DEBUG level set to 3
+due to hardwere limits num of cores set to 16 
+
+SETTING INPUTS
+
+ dumping INPUTS
+Line 0: -1 & (-1 | -1) conditions: 1 1 1 duplicate ITERATIONS: -1 -1 0
+ Line 1: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 2: 1 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 3: 2 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 4: 3 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 5: 4 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 6: 5 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 7: 6 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 8: 7 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 9: 8 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 10: 9 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 11: 10 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 12: 11 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 13: 12 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 14: 13 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 15: 14 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 16: 15 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 17: 16 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 18: 17 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 19: 18 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 20: 19 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 21: 20 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 22: 21 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ ----------tick tock test                  ----------------------------------------------
+at:          Task Map execution starts-------------------------------------------------
+at:        9 ,core  0 : task init             scheduled  
+at:          : num of cores set to 16    ---!!!!!!!!!!!!!!-----------
+at:     1050 ,core  0 : task init             terminated  retval 0        cycles=     4830
+at:     1059 ,core  0 : task user1_hw1        scheduled  
+at:     1170 ,core  0 : task user1_hw1        terminated  retval 0        cycles=      440
+at:     1179 ,core  0 : task user1_hw2        scheduled  
+at:     1299 ,core  0 : task user1_hw2        terminated  retval 0        cycles=      440
+at:     1308 ,core  0 : task user1_hw3        scheduled  
+at:     1419 ,core  0 : task user1_hw3        terminated  retval 0        cycles=      440
+at:     1428 ,core  0 : task user1_hw4        scheduled  
+at:     1548 ,core  0 : task user1_hw4        terminated  retval 0        cycles=      440
+at:     1557 ,core  0 : task user1_hw5        scheduled  
+at:     1668 ,core  0 : task user1_hw5        terminated  retval 0        cycles=      440
+at:     1677 ,core  0 : task user1_hw6        scheduled  
+at:     1797 ,core  0 : task user1_hw6        terminated  retval 0        cycles=      440
+at:     1806 ,core  0 : task user1_hw7        scheduled  
+at:     1916 ,core  0 : task user1_hw7        terminated  retval 0        cycles=      440
+at:     1926 ,core  0 : task user2_hw1        scheduled  
+at:     2045 ,core  0 : task user2_hw1        terminated  retval 0        cycles=      440
+at:     2055 ,core  0 : task user2_hw2        scheduled  
+at:     2165 ,core  0 : task user2_hw2        terminated  retval 0        cycles=      440
+at:     2174 ,core  0 : task user2_hw3        scheduled  
+at:     2294 ,core  0 : task user2_hw3        terminated  retval 0        cycles=      440
+at:     2304 ,core  0 : task user2_hw4        scheduled  
+at:     2414 ,core  0 : task user2_hw4        terminated  retval 0        cycles=      440
+at:     2423 ,core  0 : task user2_hw5        scheduled  
+at:     2543 ,core  0 : task user2_hw5        terminated  retval 0        cycles=      440
+at:     2552 ,core  0 : task user2_hw6        scheduled  
+at:     2681 ,core  0 : task user2_hw6        terminated  retval 0        cycles=      440
+at:     2810 ,core  0 : task user2_hw7        scheduled  
+at:     2930 ,core  0 : task user2_hw7        terminated  retval 0        cycles=      440
+at:     2939 ,core  0 : task user3_hw1        scheduled  
+at:     3059 ,core  0 : task user3_hw1        terminated  retval 0        cycles=      440
+at:     3068 ,core  0 : task user3_hw2        scheduled  
+at:     3179 ,core  0 : task user3_hw2        terminated  retval 0        cycles=      440
+at:     3188 ,core  0 : task user3_hw3        scheduled  
+at:     3308 ,core  0 : task user3_hw3        terminated  retval 0        cycles=      440
+at:     3317 ,core  0 : task user3_hw4        scheduled  
+at:     3428 ,core  0 : task user3_hw4        terminated  retval 0        cycles=      440
+at:     3437 ,core  0 : task user3_hw5        scheduled  
+at:     3557 ,core  0 : task user3_hw5        terminated  retval 0        cycles=      440
+at:     3566 ,core  0 : task user3_hw6        scheduled  
+at:     3686 ,core  0 : task user3_hw6        terminated  retval 0        cycles=      440
+at:     3686 ,core  0 : task user3_hw7        scheduled  
+at:     3806 ,core  0 : task user3_hw7        terminated  retval 0        cycles=      440
+at:     3815 ,core  0 : task finish           scheduled  
+at:     3935 ,core  0 : task finish           terminated  retval 0        cycles=      440
+at:   214643 -----------------------------Task Map DONE--------------------------------
+at:   214653 -----------------------------CoresNum=16--------------------------------
+
+ dumping OUTPUT

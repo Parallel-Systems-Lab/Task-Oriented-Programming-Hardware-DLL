@@ -1,0 +1,5 @@
+init3 000008d8
+add3 00000a00 00000908
+while_cond3 0000096c
+pair_add3 00000a00
+finish3 00000a70

@@ -1,0 +1,4 @@
+regular task init()
+duplicable task dup_A(dup_B[@-3]/f & init/fu)
+duplicable task dup_B(dup_A[@4]/f & init/fu)
+regular task finish(dup_A/f & dup_B/f)

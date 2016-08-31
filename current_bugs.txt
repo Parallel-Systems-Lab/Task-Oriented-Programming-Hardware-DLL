@@ -1,0 +1,35 @@
+scheduler :
+hardware task support added to topaz- acts as duplicable task (can allocate few copies of hardware task)
+                                       needs support at scheduler via hardware dll API -> out of scope for you.
+
+
+
+
+3. [@+-k] start or finish doesnt work as should 
+--> still buggy : (004) 
+            @3 iteration is 4 iterations
+             i think the window is reversed :
+             A(init/fu)
+             B(A[@3]/f)
+       A will not run all its iterations while he has no dependencies with B.
+       --check
+       also i have explained it properly in the book.
+    ->make sure we set the right examples and explane them correctly in the book (@-+k/ f or s , on one task or both tasks) 
+
+4. no {k,m} group support - 
+->topaz has the ability to id the syntex now (see logs) ,need to edit table accordingly (replaces set_group)                                                                         
+->the code does not support it. it supports A(B[g]) with SetGroupSize function. // this is {g,1} with 1 as a const //easy enough to fix
+--> fixed set_group data transactions
+-->not sure which is k and whick is m 
+-> still buggy.
+
+--check. there is a minor problem because i released both of the tasks to do their initial group sizes, so the run in 2k/2m groups. but the functionality is right, and if you want to i can decude which one will run first and lock the other one.
+
+future support :
+4. rt_tick and rt_tock functions are available - should be more accurate -need to match Hrz to epiphany for same scale data - profiler will need parameter adjusting  
+
+profiler:
+1. some of the 000-006 examples does not display correctly
+
+
+

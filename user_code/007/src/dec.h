@@ -1,0 +1,13 @@
+extern void init(void);
+extern void batch1(void);
+extern void step1(void);
+extern void batch2(void);
+extern void step2(void);
+extern void batch3(void);
+extern void batch4(void);
+extern void batch5(void);
+extern void batch6(void);
+extern void dumb1(void);
+extern void dumb2(void);
+extern void step3(void);
+extern void finish(void);

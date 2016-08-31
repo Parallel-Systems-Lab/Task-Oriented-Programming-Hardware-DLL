@@ -1,0 +1,10 @@
+extern void f0(void);
+extern void f1(void);
+extern void f2(void);
+extern void f3(void);
+extern void f4(void);
+extern void f5(void);
+extern void dupf1(void);
+extern void dupf2(void);
+extern void dupf3(void);
+extern void dupf4(void);

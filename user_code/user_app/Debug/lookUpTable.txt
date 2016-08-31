@@ -1,0 +1,12 @@
+init 00000900
+foo 000009bc
+dumb
+blabla 00000ae4
+foobar 00000b30
+dupli 00000a1c
+macintosh 00000a68
+starter 00000c08
+bar 00000ba0
+dumb1
+dumb2
+finish 000008d8

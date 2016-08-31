@@ -1,0 +1,97 @@
+
+opening input file ..//input//lennaR_init.txt
+
+opening input file ..//input//lennaG_init.txt
+
+opening input file ..//input//lennaB_init.txt
+init ended OK
+task_map binfile set as |./table.bin|
+DEBUG level set to 3
+due to hardwere limits num of cores set to 16 
+
+SETTING INPUTS
+
+ dumping INPUTS
+start loop 
+Line 0: -1 & (-1 | -1) conditions: 1 1 1 duplicate ITERATIONS: -1 -1 0
+ Line 1: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 2: 1 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 3: 2 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ ----------tick tock test                  ----------------------------------------------
+at:          Task Map execution starts-------------------------------------------------
+at:       18 ,core  0 : task init             scheduled  
+at:       55 ,core  0 : task buildlut         SetQuota        16          --------------
+at:       92 ,core  0 : task balance          SetQuota        16          --------------
+at:      119 ,core  0 : task init             terminated  retval 0        cycles=        0
+at:      129 ,core  0 : task buildlut         scheduled   iteration    0
+at:      129 ,core  1 : task buildlut         scheduled   iteration    1
+at:      138 ,core  2 : task buildlut         scheduled   iteration    2
+at:      147 ,core  3 : task buildlut         scheduled   iteration    3
+at:      147 ,core  4 : task buildlut         scheduled   iteration    4
+at:      156 ,core  5 : task buildlut         scheduled   iteration    5
+at:      165 ,core  6 : task buildlut         scheduled   iteration    6
+at:      165 ,core  7 : task buildlut         scheduled   iteration    7
+at:      175 ,core  8 : task buildlut         scheduled   iteration    8
+at:      175 ,core  9 : task buildlut         scheduled   iteration    9
+at:      184 ,core 10 : task buildlut         scheduled   iteration   10
+at:      193 ,core 11 : task buildlut         scheduled   iteration   11
+at:      193 ,core 12 : task buildlut         scheduled   iteration   12
+at:      202 ,core 13 : task buildlut         scheduled   iteration   13
+at:      211 ,core 14 : task buildlut         scheduled   iteration   14
+at:      211 ,core 15 : task buildlut         scheduled   iteration   15
+at:      221 ,core  0 : task buildlut         terminated  iteration    0  cycles=        0
+at:      230 ,core  1 : task buildlut         terminated  iteration    1  cycles=        0
+at:      239 ,core  2 : task buildlut         terminated  iteration    2  cycles=        0
+at:      239 ,core  3 : task buildlut         terminated  iteration    3  cycles=        0
+at:      248 ,core  4 : task buildlut         terminated  iteration    4  cycles=        0
+at:      258 ,core  5 : task buildlut         terminated  iteration    5  cycles=        0
+at:      267 ,core  6 : task buildlut         terminated  iteration    6  cycles=        0
+at:      276 ,core  7 : task buildlut         terminated  iteration    7  cycles=        0
+at:      276 ,core  8 : task buildlut         terminated  iteration    8  cycles=        0
+at:      285 ,core  9 : task buildlut         terminated  iteration    9  cycles=        0
+at:      294 ,core 10 : task buildlut         terminated  iteration   10  cycles=        0
+at:      304 ,core 11 : task buildlut         terminated  iteration   11  cycles=        0
+at:      313 ,core 12 : task buildlut         terminated  iteration   12  cycles=        0
+at:      313 ,core 13 : task buildlut         terminated  iteration   13  cycles=        0
+at:      322 ,core 14 : task buildlut         terminated  iteration   14  cycles=        0
+at:      331 ,core 15 : task buildlut         terminated  iteration   15  cycles=        0
+at:      331 ,core 15 : task buildlut         terminated
+at:      340 ,core 15 : task balance          scheduled   iteration    0
+at:      340 ,core  0 : task balance          scheduled   iteration    1
+at:      350 ,core  1 : task balance          scheduled   iteration    2
+at:      359 ,core  2 : task balance          scheduled   iteration    3
+at:      359 ,core  3 : task balance          scheduled   iteration    4
+at:      368 ,core  4 : task balance          scheduled   iteration    5
+at:      377 ,core  5 : task balance          scheduled   iteration    6
+at:      442 ,core  6 : task balance          scheduled   iteration    7
+at:      451 ,core  7 : task balance          scheduled   iteration    8
+at:      460 ,core  8 : task balance          scheduled   iteration    9
+at:      460 ,core  9 : task balance          scheduled   iteration   10
+at:      469 ,core 10 : task balance          scheduled   iteration   11
+at:      479 ,core 11 : task balance          scheduled   iteration   12
+at:      479 ,core 12 : task balance          scheduled   iteration   13
+at:      488 ,core 13 : task balance          scheduled   iteration   14
+at:      497 ,core 14 : task balance          scheduled   iteration   15
+at:     4358 ,core 15 : task balance          terminated  iteration    0  cycles=        0
+at:     4395 ,core  0 : task balance          terminated  iteration    1  cycles=        0
+at:     4395 ,core  1 : task balance          terminated  iteration    2  cycles=        0
+at:     4405 ,core  2 : task balance          terminated  iteration    3  cycles=        0
+at:     4414 ,core  3 : task balance          terminated  iteration    4  cycles=        0
+at:     4423 ,core  4 : task balance          terminated  iteration    5  cycles=        0
+at:     4478 ,core  5 : task balance          terminated  iteration    6  cycles=        0
+at:     4487 ,core  6 : task balance          terminated  iteration    7  cycles=        0
+at:     4497 ,core  7 : task balance          terminated  iteration    8  cycles=        0
+at:     4506 ,core  8 : task balance          terminated  iteration    9  cycles=        0
+at:     4515 ,core  9 : task balance          terminated  iteration   10  cycles=        0
+at:     4515 ,core 10 : task balance          terminated  iteration   11  cycles=        0
+at:     4524 ,core 11 : task balance          terminated  iteration   12  cycles=        0
+at:     4534 ,core 12 : task balance          terminated  iteration   13  cycles=        0
+at:     4543 ,core 13 : task balance          terminated  iteration   14  cycles=        0
+at:     4543 ,core 14 : task balance          terminated  iteration   15  cycles=        0
+at:     4552 ,core 14 : task balance          terminated
+at:     4552 ,core 14 : task finish           scheduled  
+at:     4589 ,core 14 : task finish           terminated  retval 0        cycles=        0
+at:  1760185 -----------------------------Task Map DONE--------------------------------
+at:  1760195 -----------------------------CoresNum=16--------------------------------
+
+ dumping OUTPUT

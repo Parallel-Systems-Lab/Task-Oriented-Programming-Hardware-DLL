@@ -1,0 +1,12 @@
+init1 000008d8
+evaluate1 00000960
+finish1 00000c30
+init2 00000900
+add2 00000a0c
+sumation2 00000ad4
+finish2 00000c44
+init3 00000930
+add3 00000bc0 00000a70
+while_cond3 00000b2c
+pair_add3 00000bc0
+finish3 00000c58

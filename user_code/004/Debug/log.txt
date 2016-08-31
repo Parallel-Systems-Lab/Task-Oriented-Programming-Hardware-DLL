@@ -1,0 +1,109 @@
+e-usercode.srec ended OK
+task_map binfile set as |./table.bin|
+DEBUG level set to 3
+due to hardwere limits num of cores set to 16 
+
+SETTING INPUTS
+
+ dumping INPUTS
+start loop 
+Line 0: -1 & (-1 | -1) conditions: 1 1 1 duplicate ITERATIONS: -1 -1 0
+ Line 1: 2 & (0 | -1) conditions: 1 10 0 duplicate ITERATIONS: 4 0 0
+ Line 2: 1 & (0 | -1) conditions: 1 10 0 duplicate ITERATIONS: 2 0 0
+ Line 3: 2 & (1 | -1) conditions: 10 10 0 duplicate ITERATIONS: 0 0 0
+ ----------tick tock test                  ----------------------------------------------
+at:          Task Map execution starts-------------------------------------------------
+at:        9 ,core  0 : task init             scheduled  
+at:          : num of cores set to 16    ---!!!!!!!!!!!!!!-----------
+at:       55 ,core  0 : task dup_A            SetQuota        25          --------------
+at:       92 ,core  0 : task dup_B            SetQuota        25          --------------
+at:      119 ,core  0 : task init             terminated  retval 0        cycles=        0
+at:      129 ,core  0 : task dup_B            scheduled   iteration    0
+at:      138 ,core  1 : task dup_B            scheduled   iteration    1
+at:      138 ,core  2 : task dup_B            scheduled   iteration    2
+at:      147 ,core  3 : task dup_B            scheduled   iteration    3
+at:      156 ,core  4 : task dup_A            scheduled   iteration    0
+at:      156 ,core  5 : task dup_A            scheduled   iteration    1
+at:      184 ,core  0 : task dup_B            terminated  iteration    0  cycles=        0
+at:      193 ,core  0 : task dup_A            scheduled   iteration    2
+at:      193 ,core  1 : task dup_B            terminated  iteration    1  cycles=        0
+at:      202 ,core  1 : task dup_A            scheduled   iteration    3
+at:      211 ,core  2 : task dup_B            terminated  iteration    2  cycles=        0
+at:      211 ,core  2 : task dup_A            scheduled   iteration    4
+at:      221 ,core  3 : task dup_B            terminated  iteration    3  cycles=        0
+at:      230 ,core  3 : task dup_A            scheduled   iteration    5
+at:      230 ,core  4 : task dup_A            terminated  iteration    0  cycles=        0
+at:      239 ,core  4 : task dup_B            scheduled   iteration    4
+at:      248 ,core  5 : task dup_A            terminated  iteration    1  cycles=        0
+at:      248 ,core  5 : task dup_B            scheduled   iteration    5
+at:      276 ,core  0 : task dup_A            terminated  iteration    2  cycles=        0
+at:      276 ,core  0 : task dup_B            scheduled   iteration    6
+at:      285 ,core  1 : task dup_A            terminated  iteration    3  cycles=        0
+at:      294 ,core  1 : task dup_B            scheduled   iteration    7
+at:      294 ,core  2 : task dup_A            terminated  iteration    4  cycles=        0
+at:      304 ,core  2 : task dup_B            scheduled   iteration    8
+at:      313 ,core  3 : task dup_A            terminated  iteration    5  cycles=        0
+at:      313 ,core  3 : task dup_B            scheduled   iteration    9
+at:      322 ,core  4 : task dup_B            terminated  iteration    4  cycles=        0
+at:      322 ,core  4 : task dup_A            scheduled   iteration    6
+at:      331 ,core  5 : task dup_B            terminated  iteration    5  cycles=        0
+at:      340 ,core  5 : task dup_A            scheduled   iteration    7
+at:      359 ,core  0 : task dup_B            terminated  iteration    6  cycles=        0
+at:      368 ,core  0 : task dup_A            scheduled   iteration    8
+at:      377 ,core  1 : task dup_B            terminated  iteration    7  cycles=        0
+at:      377 ,core  1 : task dup_A            scheduled   iteration    9
+at:      387 ,core  2 : task dup_B            terminated  iteration    8  cycles=        0
+at:      387 ,core  2 : task dup_A            scheduled   iteration   10
+at:      396 ,core  3 : task dup_B            terminated  iteration    9  cycles=        0
+at:      405 ,core  3 : task dup_A            scheduled   iteration   11
+at:      414 ,core  4 : task dup_A            terminated  iteration    6  cycles=        0
+at:      479 ,core  4 : task dup_B            scheduled   iteration   10
+at:      488 ,core  5 : task dup_A            terminated  iteration    7  cycles=        0
+at:      488 ,core  5 : task dup_B            scheduled   iteration   11
+at:      516 ,core  0 : task dup_A            terminated  iteration    8  cycles=        0
+at:      525 ,core  0 : task dup_B            scheduled   iteration   12
+at:      525 ,core  1 : task dup_A            terminated  iteration    9  cycles=        0
+at:      534 ,core  1 : task dup_B            scheduled   iteration   13
+at:      543 ,core  2 : task dup_A            terminated  iteration   10  cycles=        0
+at:      543 ,core  2 : task dup_B            scheduled   iteration   14
+at:      552 ,core  3 : task dup_A            terminated  iteration   11  cycles=        0
+at:      552 ,core  3 : task dup_B            scheduled   iteration   15
+at:      562 ,core  4 : task dup_B            terminated  iteration   10  cycles=        0
+at:      571 ,core  4 : task dup_A            scheduled   iteration   12
+at:      571 ,core  5 : task dup_B            terminated  iteration   11  cycles=        0
+at:      580 ,core  5 : task dup_A            scheduled   iteration   13
+at:      608 ,core  0 : task dup_B            terminated  iteration   12  cycles=        0
+at:      608 ,core  0 : task dup_A            scheduled   iteration   14
+at:      617 ,core  1 : task dup_B            terminated  iteration   13  cycles=        0
+at:      617 ,core  1 : task dup_A            scheduled   iteration   15
+at:      626 ,core  2 : task dup_B            terminated  iteration   14  cycles=        0
+at:      635 ,core  2 : task dup_A            scheduled   iteration   16
+at:      635 ,core  3 : task dup_B            terminated  iteration   15  cycles=        0
+at:      645 ,core  3 : task dup_A            scheduled   iteration   17
+at:      654 ,core  4 : task dup_A            terminated  iteration   12  cycles=        0
+at:      654 ,core  4 : task dup_B            scheduled   iteration   16
+at:      663 ,core  5 : task dup_A            terminated  iteration   13  cycles=        0
+at:      672 ,core  5 : task dup_B            scheduled   iteration   17
+at:      691 ,core  0 : task dup_A            terminated  iteration   14  cycles=        0
+at:      700 ,core  0 : task dup_B            scheduled   iteration   18
+at:      700 ,core  1 : task dup_A            terminated  iteration   15  cycles=        0
+at:      709 ,core  1 : task dup_B            scheduled   iteration   19
+at:      718 ,core  2 : task dup_A            terminated  iteration   16  cycles=        0
+at:      718 ,core  2 : task dup_B            scheduled   iteration   20
+at:      728 ,core  3 : task dup_A            terminated  iteration   17  cycles=        0
+at:      737 ,core  3 : task dup_B            scheduled   iteration   21
+at:      737 ,core  4 : task dup_B            terminated  iteration   16  cycles=        0
+at:      746 ,core  4 : task dup_A            scheduled   iteration   18
+at:      755 ,core  5 : task dup_B            terminated  iteration   17  cycles=        0
+at:      755 ,core  5 : task dup_A            scheduled   iteration   19
+at:      783 ,core  0 : task dup_B            terminated  iteration   18  cycles=        0
+at:      783 ,core  0 : task dup_A            scheduled   iteration   20
+at:      792 ,core  1 : task dup_B            terminated  iteration   19  cycles=        0
+at:      801 ,core  1 : task dup_A            scheduled   iteration   21
+at:      801 ,core  2 : task dup_B            terminated  iteration   20  cycles=        0
+at:      810 ,core  2 : task dup_A            scheduled   iteration   22
+at:      820 ,core  3 : task dup_B            terminated  iteration   21  cycles=        0
+at:      820 ,core  3 : task dup_A            scheduled   iteration   23
+at:      829 ,core  4 : task dup_A            terminated  iteration   18  cycles=        0
+at:      829 ,core  4 : task dup_B            scheduled   iteration   22
+at:      838 ,core  5 : 

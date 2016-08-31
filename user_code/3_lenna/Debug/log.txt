@@ -1,0 +1,801 @@
+
+opening input file ..//input//lennaR_init.txt
+
+opening input file ..//input//lennaG_init.txt
+
+opening input file ..//input//lennaB_init.txt
+init ended OK
+task_map binfile set as |./table.bin|
+DEBUG level set to 3
+due to hardwere limits num of cores set to 16 
+
+SETTING INPUTS
+
+ dumping INPUTS
+start loop 
+Line 0: -1 & (-1 | -1) conditions: 1 1 1 duplicate ITERATIONS: -1 -1 0
+ Line 1: 0 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 2: 1 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ Line 3: 2 & (-1 | -1) conditions: 10 1 1 duplicate ITERATIONS: 0 0 0
+ ----------tick tock test                  ----------------------------------------------
+at:          Task Map execution starts-------------------------------------------------
+at:        9 ,core  0 : task init             scheduled  
+at:       55 ,core  0 : task buildlut         SetQuota       256          --------------
+at:       92 ,core  0 : task balance          SetQuota       128          --------------
+at:      119 ,core  0 : task init             terminated  retval 0        cycles=        0
+at:      119 ,core  0 : task buildlut         scheduled   iteration    0
+at:      129 ,core  1 : task buildlut         scheduled   iteration    1
+at:      138 ,core  2 : task buildlut         scheduled   iteration    2
+at:      147 ,core  3 : task buildlut         scheduled   iteration    3
+at:      147 ,core  4 : task buildlut         scheduled   iteration    4
+at:      156 ,core  5 : task buildlut         scheduled   iteration    5
+at:      156 ,core  6 : task buildlut         scheduled   iteration    6
+at:      165 ,core  7 : task buildlut         scheduled   iteration    7
+at:      175 ,core  8 : task buildlut         scheduled   iteration    8
+at:      175 ,core  9 : task buildlut         scheduled   iteration    9
+at:      184 ,core 10 : task buildlut         scheduled   iteration   10
+at:      193 ,core 11 : task buildlut         scheduled   iteration   11
+at:      193 ,core 12 : task buildlut         scheduled   iteration   12
+at:      202 ,core 13 : task buildlut         scheduled   iteration   13
+at:      211 ,core 14 : task buildlut         scheduled   iteration   14
+at:      211 ,core 15 : task buildlut         scheduled   iteration   15
+at:      221 ,core  0 : task buildlut         terminated  iteration    0  cycles=        0
+at:      221 ,core  0 : task buildlut         scheduled   iteration   16
+at:      230 ,core  1 : task buildlut         terminated  iteration    1  cycles=        0
+at:      239 ,core  1 : task buildlut         scheduled   iteration   17
+at:      239 ,core  2 : task buildlut         terminated  iteration    2  cycles=        0
+at:      248 ,core  2 : task buildlut         scheduled   iteration   18
+at:      258 ,core  3 : task buildlut         terminated  iteration    3  cycles=        0
+at:      258 ,core  3 : task buildlut         scheduled   iteration   19
+at:      267 ,core  4 : task buildlut         terminated  iteration    4  cycles=        0
+at:      267 ,core  4 : task buildlut         scheduled   iteration   20
+at:      276 ,core  5 : task buildlut         terminated  iteration    5  cycles=        0
+at:      285 ,core  5 : task buildlut         scheduled   iteration   21
+at:      285 ,core  6 : task buildlut         terminated  iteration    6  cycles=        0
+at:      294 ,core  6 : task buildlut         scheduled   iteration   22
+at:      304 ,core  7 : task buildlut         terminated  iteration    7  cycles=        0
+at:      304 ,core  7 : task buildlut         scheduled   iteration   23
+at:      313 ,core  8 : task buildlut         terminated  iteration    8  cycles=        0
+at:      322 ,core  8 : task buildlut         scheduled   iteration   24
+at:      322 ,core  9 : task buildlut         terminated  iteration    9  cycles=        0
+at:      331 ,core  9 : task buildlut         scheduled   iteration   25
+at:      331 ,core 10 : task buildlut         terminated  iteration   10  cycles=        0
+at:      340 ,core 10 : task buildlut         scheduled   iteration   26
+at:      350 ,core 11 : task buildlut         terminated  iteration   11  cycles=        0
+at:      350 ,core 11 : task buildlut         scheduled   iteration   27
+at:      359 ,core 12 : task buildlut         terminated  iteration   12  cycles=        0
+at:      414 ,core 12 : task buildlut         scheduled   iteration   28
+at:      423 ,core 13 : task buildlut         terminated  iteration   13  cycles=        0
+at:      433 ,core 13 : task buildlut         scheduled   iteration   29
+at:      442 ,core 14 : task buildlut         terminated  iteration   14  cycles=        0
+at:      442 ,core 14 : task buildlut         scheduled   iteration   30
+at:      451 ,core 15 : task buildlut         terminated  iteration   15  cycles=        0
+at:      451 ,core 15 : task buildlut         scheduled   iteration   31
+at:      460 ,core  0 : task buildlut         terminated  iteration   16  cycles=        0
+at:      469 ,core  0 : task buildlut         scheduled   iteration   32
+at:      469 ,core  1 : task buildlut         terminated  iteration   17  cycles=        0
+at:      479 ,core  1 : task buildlut         scheduled   iteration   33
+at:      488 ,core  2 : task buildlut         terminated  iteration   18  cycles=        0
+at:      488 ,core  2 : task buildlut         scheduled   iteration   34
+at:      497 ,core  3 : task buildlut         terminated  iteration   19  cycles=        0
+at:      497 ,core  3 : task buildlut         scheduled   iteration   35
+at:      506 ,core  4 : task buildlut         terminated  iteration   20  cycles=        0
+at:      516 ,core  4 : task buildlut         scheduled   iteration   36
+at:      516 ,core  5 : task buildlut         terminated  iteration   21  cycles=        0
+at:      525 ,core  5 : task buildlut         scheduled   iteration   37
+at:      534 ,core  6 : task buildlut         terminated  iteration   22  cycles=        0
+at:      534 ,core  6 : task buildlut         scheduled   iteration   38
+at:      543 ,core  7 : task buildlut         terminated  iteration   23  cycles=        0
+at:      543 ,core  7 : task buildlut         scheduled   iteration   39
+at:      552 ,core  8 : task buildlut         terminated  iteration   24  cycles=        0
+at:      562 ,core  8 : task buildlut         scheduled   iteration   40
+at:      562 ,core  9 : task buildlut         terminated  iteration   25  cycles=        0
+at:      571 ,core  9 : task buildlut         scheduled   iteration   41
+at:      580 ,core 10 : task buildlut         terminated  iteration   26  cycles=        0
+at:      580 ,core 10 : task buildlut         scheduled   iteration   42
+at:      589 ,core 11 : task buildlut         terminated  iteration   27  cycles=        0
+at:      589 ,core 11 : task buildlut         scheduled   iteration   43
+at:      599 ,core 12 : task buildlut         terminated  iteration   28  cycles=        0
+at:      608 ,core 12 : task buildlut         scheduled   iteration   44
+at:      608 ,core 13 : task buildlut         terminated  iteration   29  cycles=        0
+at:      617 ,core 13 : task buildlut         scheduled   iteration   45
+at:      626 ,core 14 : task buildlut         terminated  iteration   30  cycles=        0
+at:      626 ,core 14 : task buildlut         scheduled   iteration   46
+at:      635 ,core 15 : task buildlut         terminated  iteration   31  cycles=        0
+at:      635 ,core 15 : task buildlut         scheduled   iteration   47
+at:      645 ,core  0 : task buildlut         terminated  iteration   32  cycles=        0
+at:      654 ,core  0 : task buildlut         scheduled   iteration   48
+at:      654 ,core  1 : task buildlut         terminated  iteration   33  cycles=        0
+at:      663 ,core  1 : task buildlut         scheduled   iteration   49
+at:      672 ,core  2 : task buildlut         terminated  iteration   34  cycles=        0
+at:      672 ,core  2 : task buildlut         scheduled   iteration   50
+at:      681 ,core  3 : task buildlut         terminated  iteration   35  cycles=        0
+at:      681 ,core  3 : task buildlut         scheduled   iteration   51
+at:      691 ,core  4 : task buildlut         terminated  iteration   36  cycles=        0
+at:      700 ,core  4 : task buildlut         scheduled   iteration   52
+at:      700 ,core  5 : task buildlut         terminated  iteration   37  cycles=        0
+at:      737 ,core  5 : task buildlut         scheduled   iteration   53
+at:      746 ,core  6 : task buildlut         terminated  iteration   38  cycles=        0
+at:      755 ,core  6 : task buildlut         scheduled   iteration   54
+at:      764 ,core  7 : task buildlut         terminated  iteration   39  cycles=        0
+at:      764 ,core  7 : task buildlut         scheduled   iteration   55
+at:      774 ,core  8 : task buildlut         terminated  iteration   40  cycles=        0
+at:      774 ,core  8 : task buildlut         scheduled   iteration   56
+at:      783 ,core  9 : task buildlut         terminated  iteration   41  cycles=        0
+at:      792 ,core  9 : task buildlut         scheduled   iteration   57
+at:      792 ,core 10 : task buildlut         terminated  iteration   42  cycles=        0
+at:      801 ,core 10 : task buildlut         scheduled   iteration   58
+at:      810 ,core 11 : task buildlut         terminated  iteration   43  cycles=        0
+at:      810 ,core 11 : task buildlut         scheduled   iteration   59
+at:      820 ,core 12 : task buildlut         terminated  iteration   44  cycles=        0
+at:      820 ,core 12 : task buildlut         scheduled   iteration   60
+at:      829 ,core 13 : task buildlut         terminated  iteration   45  cycles=        0
+at:      838 ,core 13 : task buildlut         scheduled   iteration   61
+at:      838 ,core 14 : task buildlut         terminated  iteration   46  cycles=        0
+at:      847 ,core 14 : task buildlut         scheduled   iteration   62
+at:      847 ,core 15 : task buildlut         terminated  iteration   47  cycles=        0
+at:      857 ,core 15 : task buildlut         scheduled   iteration   63
+at:      866 ,core  0 : task buildlut         terminated  iteration   48  cycles=        0
+at:      866 ,core  0 : task buildlut         scheduled   iteration   64
+at:      875 ,core  1 : task buildlut         terminated  iteration   49  cycles=        0
+at:      884 ,core  1 : task buildlut         scheduled   iteration   65
+at:      884 ,core  2 : task buildlut         terminated  iteration   50  cycles=        0
+at:      893 ,core  2 : task buildlut         scheduled   iteration   66
+at:      893 ,core  3 : task buildlut         terminated  iteration   51  cycles=        0
+at:      903 ,core  3 : task buildlut         scheduled   iteration   67
+at:      912 ,core  4 : task buildlut         terminated  iteration   52  cycles=        0
+at:      912 ,core  4 : task buildlut         scheduled   iteration   68
+at:      921 ,core  5 : task buildlut         terminated  iteration   53  cycles=        0
+at:      930 ,core  5 : task buildlut         scheduled   iteration   69
+at:      930 ,core  6 : task buildlut         terminated  iteration   54  cycles=        0
+at:      939 ,core  6 : task buildlut         scheduled   iteration   70
+at:      939 ,core  7 : task buildlut         terminated  iteration   55  cycles=        0
+at:      949 ,core  7 : task buildlut         scheduled   iteration   71
+at:      958 ,core  8 : task buildlut         terminated  iteration   56  cycles=        0
+at:      958 ,core  8 : task buildlut         scheduled   iteration   72
+at:      967 ,core  9 : task buildlut         terminated  iteration   57  cycles=        0
+at:      976 ,core  9 : task buildlut         scheduled   iteration   73
+at:      976 ,core 10 : task buildlut         terminated  iteration   58  cycles=        0
+at:      986 ,core 10 : task buildlut         scheduled   iteration   74
+at:      986 ,core 11 : task buildlut         terminated  iteration   59  cycles=        0
+at:      995 ,core 11 : task buildlut         scheduled   iteration   75
+at:     1004 ,core 12 : task buildlut         terminated  iteration   60  cycles=        0
+at:     1004 ,core 12 : task buildlut         scheduled   iteration   76
+at:     1013 ,core 13 : task buildlut         terminated  iteration   61  cycles=        0
+at:     1013 ,core 13 : task buildlut         scheduled   iteration   77
+at:     1022 ,core 14 : task buildlut         terminated  iteration   62  cycles=        0
+at:     1059 ,core 14 : task buildlut         scheduled   iteration   78
+at:     1069 ,core 15 : task buildlut         terminated  iteration   63  cycles=        0
+at:     1078 ,core 15 : task buildlut         scheduled   iteration   79
+at:     1078 ,core  0 : task buildlut         terminated  iteration   64  cycles=        0
+at:     1087 ,core  0 : task buildlut         scheduled   iteration   80
+at:     1096 ,core  1 : task buildlut         terminated  iteration   65  cycles=        0
+at:     1096 ,core  1 : task buildlut         scheduled   iteration   81
+at:     1105 ,core  2 : task buildlut         terminated  iteration   66  cycles=        0
+at:     1105 ,core  2 : task buildlut         scheduled   iteration   82
+at:     1115 ,core  3 : task buildlut         terminated  iteration   67  cycles=        0
+at:     1124 ,core  3 : task buildlut         scheduled   iteration   83
+at:     1124 ,core  4 : task buildlut         terminated  iteration   68  cycles=        0
+at:     1133 ,core  4 : task buildlut         scheduled   iteration   84
+at:     1142 ,core  5 : task buildlut         terminated  iteration   69  cycles=        0
+at:     1142 ,core  5 : task buildlut         scheduled   iteration   85
+at:     1151 ,core  6 : task buildlut         terminated  iteration   70  cycles=        0
+at:     1151 ,core  6 : task buildlut         scheduled   iteration   86
+at:     1161 ,core  7 : task buildlut         terminated  iteration   71  cycles=        0
+at:     1170 ,core  7 : task buildlut         scheduled   iteration   87
+at:     1170 ,core  8 : task buildlut         terminated  iteration   72  cycles=        0
+at:     1179 ,core  8 : task buildlut         scheduled   iteration   88
+at:     1188 ,core  9 : task buildlut         terminated  iteration   73  cycles=        0
+at:     1188 ,core  9 : task buildlut         scheduled   iteration   89
+at:     1198 ,core 10 : task buildlut         terminated  iteration   74  cycles=        0
+at:     1198 ,core 10 : task buildlut         scheduled   iteration   90
+at:     1207 ,core 11 : task buildlut         terminated  iteration   75  cycles=        0
+at:     1216 ,core 11 : task buildlut         scheduled   iteration   91
+at:     1216 ,core 12 : task buildlut         terminated  iteration   76  cycles=        0
+at:     1225 ,core 12 : task buildlut         scheduled   iteration   92
+at:     1225 ,core 13 : task buildlut         terminated  iteration   77  cycles=        0
+at:     1234 ,core 13 : task buildlut         scheduled   iteration   93
+at:     1244 ,core 14 : task buildlut         terminated  iteration   78  cycles=        0
+at:     1244 ,core 14 : task buildlut         scheduled   iteration   94
+at:     1253 ,core 15 : task buildlut         terminated  iteration   79  cycles=        0
+at:     1262 ,core 15 : task buildlut         scheduled   iteration   95
+at:     1262 ,core  0 : task buildlut         terminated  iteration   80  cycles=        0
+at:     1271 ,core  0 : task buildlut         scheduled   iteration   96
+at:     1271 ,core  1 : task buildlut         terminated  iteration   81  cycles=        0
+at:     1280 ,core  1 : task buildlut         scheduled   iteration   97
+at:     1290 ,core  2 : task buildlut         terminated  iteration   82  cycles=        0
+at:     1290 ,core  2 : task buildlut         scheduled   iteration   98
+at:     1299 ,core  3 : task buildlut         terminated  iteration   83  cycles=        0
+at:     1308 ,core  3 : task buildlut         scheduled   iteration   99
+at:     1308 ,core  4 : task buildlut         terminated  iteration   84  cycles=        0
+at:     1317 ,core  4 : task buildlut         scheduled   iteration  100
+at:     1317 ,core  5 : task buildlut         terminated  iteration   85  cycles=        0
+at:     1327 ,core  5 : task buildlut         scheduled   iteration  101
+at:     1336 ,core  6 : task buildlut         terminated  iteration   86  cycles=        0
+at:     1336 ,core  6 : task buildlut         scheduled   iteration  102
+at:     1345 ,core  7 : task buildlut         terminated  iteration   87  cycles=        0
+at:     1382 ,core  7 : task buildlut         scheduled   iteration  103
+at:     1391 ,core  8 : task buildlut         terminated  iteration   88  cycles=        0
+at:     1391 ,core  8 : task buildlut         scheduled   iteration  104
+at:     1400 ,core  9 : task buildlut         terminated  iteration   89  cycles=        0
+at:     1409 ,core  9 : task buildlut         scheduled   iteration  105
+at:     1409 ,core 10 : task buildlut         terminated  iteration   90  cycles=        0
+at:     1419 ,core 10 : task buildlut         scheduled   iteration  106
+at:     1419 ,core 11 : task buildlut         terminated  iteration   91  cycles=        0
+at:     1428 ,core 11 : task buildlut         scheduled   iteration  107
+at:     1437 ,core 12 : task buildlut         terminated  iteration   92  cycles=        0
+at:     1437 ,core 12 : task buildlut         scheduled   iteration  108
+at:     1446 ,core 13 : task buildlut         terminated  iteration   93  cycles=        0
+at:     1446 ,core 13 : task buildlut         scheduled   iteration  109
+at:     1456 ,core 14 : task buildlut         terminated  iteration   94  cycles=        0
+at:     1465 ,core 14 : task buildlut         scheduled   iteration  110
+at:     1465 ,core 15 : task buildlut         terminated  iteration   95  cycles=        0
+at:     1474 ,core 15 : task buildlut         scheduled   iteration  111
+at:     1483 ,core  0 : task buildlut         terminated  iteration   96  cycles=        0
+at:     1483 ,core  0 : task buildlut         scheduled   iteration  112
+at:     1492 ,core  1 : task buildlut         terminated  iteration   97  cycles=        0
+at:     1492 ,core  1 : task buildlut         scheduled   iteration  113
+at:     1502 ,core  2 : task buildlut         terminated  iteration   98  cycles=        0
+at:     1511 ,core  2 : task buildlut         scheduled   iteration  114
+at:     1511 ,core  3 : task buildlut         terminated  iteration   99  cycles=        0
+at:     1520 ,core  3 : task buildlut         scheduled   iteration  115
+at:     1529 ,core  4 : task buildlut         terminated  iteration  100  cycles=        0
+at:     1529 ,core  4 : task buildlut         scheduled   iteration  116
+at:     1539 ,core  5 : task buildlut         terminated  iteration  101  cycles=        0
+at:     1548 ,core  5 : task buildlut         scheduled   iteration  117
+at:     1548 ,core  6 : task buildlut         terminated  iteration  102  cycles=        0
+at:     1557 ,core  6 : task buildlut         scheduled   iteration  118
+at:     1557 ,core  7 : task buildlut         terminated  iteration  103  cycles=        0
+at:     1566 ,core  7 : task buildlut         scheduled   iteration  119
+at:     1575 ,core  8 : task buildlut         terminated  iteration  104  cycles=        0
+at:     1575 ,core  8 : task buildlut         scheduled   iteration  120
+at:     1585 ,core  9 : task buildlut         terminated  iteration  105  cycles=        0
+at:     1594 ,core  9 : task buildlut         scheduled   iteration  121
+at:     1594 ,core 10 : task buildlut         terminated  iteration  106  cycles=        0
+at:     1603 ,core 10 : task buildlut         scheduled   iteration  122
+at:     1603 ,core 11 : task buildlut         terminated  iteration  107  cycles=        0
+at:     1612 ,core 11 : task buildlut         scheduled   iteration  123
+at:     1621 ,core 12 : task buildlut         terminated  iteration  108  cycles=        0
+at:     1621 ,core 12 : task buildlut         scheduled   iteration  124
+at:     1631 ,core 13 : task buildlut         terminated  iteration  109  cycles=        0
+at:     1631 ,core 13 : task buildlut         scheduled   iteration  125
+at:     1640 ,core 14 : task buildlut         terminated  iteration  110  cycles=        0
+at:     1649 ,core 14 : task buildlut         scheduled   iteration  126
+at:     1649 ,core 15 : task buildlut         terminated  iteration  111  cycles=        0
+at:     1658 ,core 15 : task buildlut         scheduled   iteration  127
+at:     1668 ,core  0 : task buildlut         terminated  iteration  112  cycles=        0
+at:     1695 ,core  0 : task buildlut         scheduled   iteration  128
+at:     1704 ,core  1 : task buildlut         terminated  iteration  113  cycles=        0
+at:     1714 ,core  1 : task buildlut         scheduled   iteration  129
+at:     1723 ,core  2 : task buildlut         terminated  iteration  114  cycles=        0
+at:     1723 ,core  2 : task buildlut         scheduled   iteration  130
+at:     1732 ,core  3 : task buildlut         terminated  iteration  115  cycles=        0
+at:     1732 ,core  3 : task buildlut         scheduled   iteration  131
+at:     1741 ,core  4 : task buildlut         terminated  iteration  116  cycles=        0
+at:     1750 ,core  4 : task buildlut         scheduled   iteration  132
+at:     1750 ,core  5 : task buildlut         terminated  iteration  117  cycles=        0
+at:     1760 ,core  5 : task buildlut         scheduled   iteration  133
+at:     1769 ,core  6 : task buildlut         terminated  iteration  118  cycles=        0
+at:     1769 ,core  6 : task buildlut         scheduled   iteration  134
+at:     1778 ,core  7 : task buildlut         terminated  iteration  119  cycles=        0
+at:     1778 ,core  7 : task buildlut         scheduled   iteration  135
+at:     1787 ,core  8 : task buildlut         terminated  iteration  120  cycles=        0
+at:     1797 ,core  8 : task buildlut         scheduled   iteration  136
+at:     1797 ,core  9 : task buildlut         terminated  iteration  121  cycles=        0
+at:     1806 ,core  9 : task buildlut         scheduled   iteration  137
+at:     1815 ,core 10 : task buildlut         terminated  iteration  122  cycles=        0
+at:     1815 ,core 10 : task buildlut         scheduled   iteration  138
+at:     1824 ,core 11 : task buildlut         terminated  iteration  123  cycles=        0
+at:     1824 ,core 11 : task buildlut         scheduled   iteration  139
+at:     1833 ,core 12 : task buildlut         terminated  iteration  124  cycles=        0
+at:     1843 ,core 12 : task buildlut         scheduled   iteration  140
+at:     1843 ,core 13 : task buildlut         terminated  iteration  125  cycles=        0
+at:     1852 ,core 13 : task buildlut         scheduled   iteration  141
+at:     1861 ,core 14 : task buildlut         terminated  iteration  126  cycles=        0
+at:     1861 ,core 14 : task buildlut         scheduled   iteration  142
+at:     1870 ,core 15 : task buildlut         terminated  iteration  127  cycles=        0
+at:     1870 ,core 15 : task buildlut         scheduled   iteration  143
+at:     1879 ,core  0 : task buildlut         terminated  iteration  128  cycles=        0
+at:     1889 ,core  0 : task buildlut         scheduled   iteration  144
+at:     1889 ,core  1 : task buildlut         terminated  iteration  129  cycles=        0
+at:     1898 ,core  1 : task buildlut         scheduled   iteration  145
+at:     1907 ,core  2 : task buildlut         terminated  iteration  130  cycles=        0
+at:     1907 ,core  2 : task buildlut         scheduled   iteration  146
+at:     1916 ,core  3 : task buildlut         terminated  iteration  131  cycles=        0
+at:     1916 ,core  3 : task buildlut         scheduled   iteration  147
+at:     1926 ,core  4 : task buildlut         terminated  iteration  132  cycles=        0
+at:     1935 ,core  4 : task buildlut         scheduled   iteration  148
+at:     1935 ,core  5 : task buildlut         terminated  iteration  133  cycles=        0
+at:     1944 ,core  5 : task buildlut         scheduled   iteration  149
+at:     1953 ,core  6 : task buildlut         terminated  iteration  134  cycles=        0
+at:     1953 ,core  6 : task buildlut         scheduled   iteration  150
+at:     1962 ,core  7 : task buildlut         terminated  iteration  135  cycles=        0
+at:     1962 ,core  7 : task buildlut         scheduled   iteration  151
+at:     1972 ,core  8 : task buildlut         terminated  iteration  136  cycles=        0
+at:     1981 ,core  8 : task buildlut         scheduled   iteration  152
+at:     1981 ,core  9 : task buildlut         terminated  iteration  137  cycles=        0
+at:     2018 ,core  9 : task buildlut         scheduled   iteration  153
+at:     2027 ,core 10 : task buildlut         terminated  iteration  138  cycles=        0
+at:     2027 ,core 10 : task buildlut         scheduled   iteration  154
+at:     2036 ,core 11 : task buildlut         terminated  iteration  139  cycles=        0
+at:     2045 ,core 11 : task buildlut         scheduled   iteration  155
+at:     2045 ,core 12 : task buildlut         terminated  iteration  140  cycles=        0
+at:     2055 ,core 12 : task buildlut         scheduled   iteration  156
+at:     2064 ,core 13 : task buildlut         terminated  iteration  141  cycles=        0
+at:     2064 ,core 13 : task buildlut         scheduled   iteration  157
+at:     2073 ,core 14 : task buildlut         terminated  iteration  142  cycles=        0
+at:     2073 ,core 14 : task buildlut         scheduled   iteration  158
+at:     2082 ,core 15 : task buildlut         terminated  iteration  143  cycles=        0
+at:     2091 ,core 15 : task buildlut         scheduled   iteration  159
+at:     2091 ,core  0 : task buildlut         terminated  iteration  144  cycles=        0
+at:     2101 ,core  0 : task buildlut         scheduled   iteration  160
+at:     2110 ,core  1 : task buildlut         terminated  iteration  145  cycles=        0
+at:     2110 ,core  1 : task buildlut         scheduled   iteration  161
+at:     2119 ,core  2 : task buildlut         terminated  iteration  146  cycles=        0
+at:     2119 ,core  2 : task buildlut         scheduled   iteration  162
+at:     2128 ,core  3 : task buildlut         terminated  iteration  147  cycles=        0
+at:     2138 ,core  3 : task buildlut         scheduled   iteration  163
+at:     2138 ,core  4 : task buildlut         terminated  iteration  148  cycles=        0
+at:     2147 ,core  4 : task buildlut         scheduled   iteration  164
+at:     2156 ,core  5 : task buildlut         terminated  iteration  149  cycles=        0
+at:     2156 ,core  5 : task buildlut         scheduled   iteration  165
+at:     2165 ,core  6 : task buildlut         terminated  iteration  150  cycles=        0
+at:     2165 ,core  6 : task buildlut         scheduled   iteration  166
+at:     2174 ,core  7 : task buildlut         terminated  iteration  151  cycles=        0
+at:     2184 ,core  7 : task buildlut         scheduled   iteration  167
+at:     2184 ,core  8 : task buildlut         terminated  iteration  152  cycles=        0
+at:     2193 ,core  8 : task buildlut         scheduled   iteration  168
+at:     2202 ,core  9 : task buildlut         terminated  iteration  153  cycles=        0
+at:     2202 ,core  9 : task buildlut         scheduled   iteration  169
+at:     2211 ,core 10 : task buildlut         terminated  iteration  154  cycles=        0
+at:     2211 ,core 10 : task buildlut         scheduled   iteration  170
+at:     2220 ,core 11 : task buildlut         terminated  iteration  155  cycles=        0
+at:     2230 ,core 11 : task buildlut         scheduled   iteration  171
+at:     2230 ,core 12 : task buildlut         terminated  iteration  156  cycles=        0
+at:     2239 ,core 12 : task buildlut         scheduled   iteration  172
+at:     2248 ,core 13 : task buildlut         terminated  iteration  157  cycles=        0
+at:     2248 ,core 13 : task buildlut         scheduled   iteration  173
+at:     2257 ,core 14 : task buildlut         terminated  iteration  158  cycles=        0
+at:     2257 ,core 14 : task buildlut         scheduled   iteration  174
+at:     2267 ,core 15 : task buildlut         terminated  iteration  159  cycles=        0
+at:     2276 ,core 15 : task buildlut         scheduled   iteration  175
+at:     2276 ,core  0 : task buildlut         terminated  iteration  160  cycles=        0
+at:     2285 ,core  0 : task buildlut         scheduled   iteration  176
+at:     2294 ,core  1 : task buildlut         terminated  iteration  161  cycles=        0
+at:     2294 ,core  1 : task buildlut         scheduled   iteration  177
+at:     2331 ,core  2 : task buildlut         terminated  iteration  162  cycles=        0
+at:     2340 ,core  2 : task buildlut         scheduled   iteration  178
+at:     2340 ,core  3 : task buildlut         terminated  iteration  163  cycles=        0
+at:     2349 ,core  3 : task buildlut         scheduled   iteration  179
+at:     2359 ,core  4 : task buildlut         terminated  iteration  164  cycles=        0
+at:     2359 ,core  4 : task buildlut         scheduled   iteration  180
+at:     2368 ,core  5 : task buildlut         terminated  iteration  165  cycles=        0
+at:     2377 ,core  5 : task buildlut         scheduled   iteration  181
+at:     2377 ,core  6 : task buildlut         terminated  iteration  166  cycles=        0
+at:     2386 ,core  6 : task buildlut         scheduled   iteration  182
+at:     2386 ,core  7 : task buildlut         terminated  iteration  167  cycles=        0
+at:     2396 ,core  7 : task buildlut         scheduled   iteration  183
+at:     2405 ,core  8 : task buildlut         terminated  iteration  168  cycles=        0
+at:     2405 ,core  8 : task buildlut         scheduled   iteration  184
+at:     2414 ,core  9 : task buildlut         terminated  iteration  169  cycles=        0
+at:     2414 ,core  9 : task buildlut         scheduled   iteration  185
+at:     2423 ,core 10 : task buildlut         terminated  iteration  170  cycles=        0
+at:     2432 ,core 10 : task buildlut         scheduled   iteration  186
+at:     2432 ,core 11 : task buildlut         terminated  iteration  171  cycles=        0
+at:     2442 ,core 11 : task buildlut         scheduled   iteration  187
+at:     2451 ,core 12 : task buildlut         terminated  iteration  172  cycles=        0
+at:     2451 ,core 12 : task buildlut         scheduled   iteration  188
+at:     2460 ,core 13 : task buildlut         terminated  iteration  173  cycles=        0
+at:     2460 ,core 13 : task buildlut         scheduled   iteration  189
+at:     2469 ,core 14 : task buildlut         terminated  iteration  174  cycles=        0
+at:     2478 ,core 14 : task buildlut         scheduled   iteration  190
+at:     2478 ,core 15 : task buildlut         terminated  iteration  175  cycles=        0
+at:     2488 ,core 15 : task buildlut         scheduled   iteration  191
+at:     2497 ,core  0 : task buildlut         terminated  iteration  176  cycles=        0
+at:     2497 ,core  0 : task buildlut         scheduled   iteration  192
+at:     2506 ,core  1 : task buildlut         terminated  iteration  177  cycles=        0
+at:     2506 ,core  1 : task buildlut         scheduled   iteration  193
+at:     2515 ,core  2 : task buildlut         terminated  iteration  178  cycles=        0
+at:     2525 ,core  2 : task buildlut         scheduled   iteration  194
+at:     2525 ,core  3 : task buildlut         terminated  iteration  179  cycles=        0
+at:     2534 ,core  3 : task buildlut         scheduled   iteration  195
+at:     2543 ,core  4 : task buildlut         terminated  iteration  180  cycles=        0
+at:     2543 ,core  4 : task buildlut         scheduled   iteration  196
+at:     2552 ,core  5 : task buildlut         terminated  iteration  181  cycles=        0
+at:     2552 ,core  5 : task buildlut         scheduled   iteration  197
+at:     2561 ,core  6 : task buildlut         terminated  iteration  182  cycles=        0
+at:     2571 ,core  6 : task buildlut         scheduled   iteration  198
+at:     2571 ,core  7 : task buildlut         terminated  iteration  183  cycles=        0
+at:     2580 ,core  7 : task buildlut         scheduled   iteration  199
+at:     2589 ,core  8 : task buildlut         terminated  iteration  184  cycles=        0
+at:     2589 ,core  8 : task buildlut         scheduled   iteration  200
+at:     2598 ,core  9 : task buildlut         terminated  iteration  185  cycles=        0
+at:     2598 ,core  9 : task buildlut         scheduled   iteration  201
+at:     2608 ,core 10 : task buildlut         terminated  iteration  186  cycles=        0
+at:     2617 ,core 10 : task buildlut         scheduled   iteration  202
+at:     2654 ,core 11 : task buildlut         terminated  iteration  187  cycles=        0
+at:     2654 ,core 11 : task buildlut         scheduled   iteration  203
+at:     2663 ,core 12 : task buildlut         terminated  iteration  188  cycles=        0
+at:     2663 ,core 12 : task buildlut         scheduled   iteration  204
+at:     2672 ,core 13 : task buildlut         terminated  iteration  189  cycles=        0
+at:     2681 ,core 13 : task buildlut         scheduled   iteration  205
+at:     2681 ,core 14 : task buildlut         terminated  iteration  190  cycles=        0
+at:     2690 ,core 14 : task buildlut         scheduled   iteration  206
+at:     2700 ,core 15 : task buildlut         terminated  iteration  191  cycles=        0
+at:     2700 ,core 15 : task buildlut         scheduled   iteration  207
+at:     2709 ,core  0 : task buildlut         terminated  iteration  192  cycles=        0
+at:     2709 ,core  0 : task buildlut         scheduled   iteration  208
+at:     2718 ,core  1 : task buildlut         terminated  iteration  193  cycles=        0
+at:     2727 ,core  1 : task buildlut         scheduled   iteration  209
+at:     2727 ,core  2 : task buildlut         terminated  iteration  194  cycles=        0
+at:     2737 ,core  2 : task buildlut         scheduled   iteration  210
+at:     2746 ,core  3 : task buildlut         terminated  iteration  195  cycles=        0
+at:     2746 ,core  3 : task buildlut         scheduled   iteration  211
+at:     2755 ,core  4 : task buildlut         terminated  iteration  196  cycles=        0
+at:     2755 ,core  4 : task buildlut         scheduled   iteration  212
+at:     2764 ,core  5 : task buildlut         terminated  iteration  197  cycles=        0
+at:     2773 ,core  5 : task buildlut         scheduled   iteration  213
+at:     2773 ,core  6 : task buildlut         terminated  iteration  198  cycles=        0
+at:     2783 ,core  6 : task buildlut         scheduled   iteration  214
+at:     2792 ,core  7 : task buildlut         terminated  iteration  199  cycles=        0
+at:     2792 ,core  7 : task buildlut         scheduled   iteration  215
+at:     2801 ,core  8 : task buildlut         terminated  iteration  200  cycles=        0
+at:     2801 ,core  8 : task buildlut         scheduled   iteration  216
+at:     2810 ,core  9 : task buildlut         terminated  iteration  201  cycles=        0
+at:     2819 ,core  9 : task buildlut         scheduled   iteration  217
+at:     2819 ,core 10 : task buildlut         terminated  iteration  202  cycles=        0
+at:     2829 ,core 10 : task buildlut         scheduled   iteration  218
+at:     2838 ,core 11 : task buildlut         terminated  iteration  203  cycles=        0
+at:     2838 ,core 11 : task buildlut         scheduled   iteration  219
+at:     2847 ,core 12 : task buildlut         terminated  iteration  204  cycles=        0
+at:     2847 ,core 12 : task buildlut         scheduled   iteration  220
+at:     2856 ,core 13 : task buildlut         terminated  iteration  205  cycles=        0
+at:     2866 ,core 13 : task buildlut         scheduled   iteration  221
+at:     2866 ,core 14 : task buildlut         terminated  iteration  206  cycles=        0
+at:     2875 ,core 14 : task buildlut         scheduled   iteration  222
+at:     2884 ,core 15 : task buildlut         terminated  iteration  207  cycles=        0
+at:     2884 ,core 15 : task buildlut         scheduled   iteration  223
+at:     2893 ,core  0 : task buildlut         terminated  iteration  208  cycles=        0
+at:     2893 ,core  0 : task buildlut         scheduled   iteration  224
+at:     2902 ,core  1 : task buildlut         terminated  iteration  209  cycles=        0
+at:     2912 ,core  1 : task buildlut         scheduled   iteration  225
+at:     2912 ,core  2 : task buildlut         terminated  iteration  210  cycles=        0
+at:     2921 ,core  2 : task buildlut         scheduled   iteration  226
+at:     2930 ,core  3 : task buildlut         terminated  iteration  211  cycles=        0
+at:     2930 ,core  3 : task buildlut         scheduled   iteration  227
+at:     2967 ,core  4 : task buildlut         terminated  iteration  212  cycles=        0
+at:     2976 ,core  4 : task buildlut         scheduled   iteration  228
+at:     2976 ,core  5 : task buildlut         terminated  iteration  213  cycles=        0
+at:     2985 ,core  5 : task buildlut         scheduled   iteration  229
+at:     2995 ,core  6 : task buildlut         terminated  iteration  214  cycles=        0
+at:     2995 ,core  6 : task buildlut         scheduled   iteration  230
+at:     3004 ,core  7 : task buildlut         terminated  iteration  215  cycles=        0
+at:     3004 ,core  7 : task buildlut         scheduled   iteration  231
+at:     3013 ,core  8 : task buildlut         terminated  iteration  216  cycles=        0
+at:     3022 ,core  8 : task buildlut         scheduled   iteration  232
+at:     3022 ,core  9 : task buildlut         terminated  iteration  217  cycles=        0
+at:     3031 ,core  9 : task buildlut         scheduled   iteration  233
+at:     3041 ,core 10 : task buildlut         terminated  iteration  218  cycles=        0
+at:     3041 ,core 10 : task buildlut         scheduled   iteration  234
+at:     3050 ,core 11 : task buildlut         terminated  iteration  219  cycles=        0
+at:     3050 ,core 11 : task buildlut         scheduled   iteration  235
+at:     3059 ,core 12 : task buildlut         terminated  iteration  220  cycles=        0
+at:     3068 ,core 12 : task buildlut         scheduled   iteration  236
+at:     3068 ,core 13 : task buildlut         terminated  iteration  221  cycles=        0
+at:     3078 ,core 13 : task buildlut         scheduled   iteration  237
+at:     3087 ,core 14 : task buildlut         terminated  iteration  222  cycles=        0
+at:     3087 ,core 14 : task buildlut         scheduled   iteration  238
+at:     3096 ,core 15 : task buildlut         terminated  iteration  223  cycles=        0
+at:     3096 ,core 15 : task buildlut         scheduled   iteration  239
+at:     3105 ,core  0 : task buildlut         terminated  iteration  224  cycles=        0
+at:     3114 ,core  0 : task buildlut         scheduled   iteration  240
+at:     3114 ,core  1 : task buildlut         terminated  iteration  225  cycles=        0
+at:     3124 ,core  1 : task buildlut         scheduled   iteration  241
+at:     3133 ,core  2 : task buildlut         terminated  iteration  226  cycles=        0
+at:     3133 ,core  2 : task buildlut         scheduled   iteration  242
+at:     3142 ,core  3 : task buildlut         terminated  iteration  227  cycles=        0
+at:     3142 ,core  3 : task buildlut         scheduled   iteration  243
+at:     3151 ,core  4 : task buildlut         terminated  iteration  228  cycles=        0
+at:     3160 ,core  4 : task buildlut         scheduled   iteration  244
+at:     3160 ,core  5 : task buildlut         terminated  iteration  229  cycles=        0
+at:     3170 ,core  5 : task buildlut         scheduled   iteration  245
+at:     3179 ,core  6 : task buildlut         terminated  iteration  230  cycles=        0
+at:     3179 ,core  6 : task buildlut         scheduled   iteration  246
+at:     3188 ,core  7 : task buildlut         terminated  iteration  231  cycles=        0
+at:     3197 ,core  7 : task buildlut         scheduled   iteration  247
+at:     3197 ,core  8 : task buildlut         terminated  iteration  232  cycles=        0
+at:     3207 ,core  8 : task buildlut         scheduled   iteration  248
+at:     3207 ,core  9 : task buildlut         terminated  iteration  233  cycles=        0
+at:     3216 ,core  9 : task buildlut         scheduled   iteration  249
+at:     3225 ,core 10 : task buildlut         terminated  iteration  234  cycles=        0
+at:     3225 ,core 10 : task buildlut         scheduled   iteration  250
+at:     3234 ,core 11 : task buildlut         terminated  iteration  235  cycles=        0
+at:     3234 ,core 11 : task buildlut         scheduled   iteration  251
+at:     3243 ,core 12 : task buildlut         terminated  iteration  236  cycles=        0
+at:     3253 ,core 12 : task buildlut         scheduled   iteration  252
+at:     3289 ,core 13 : task buildlut         terminated  iteration  237  cycles=        0
+at:     3289 ,core 13 : task buildlut         scheduled   iteration  253
+at:     3299 ,core 14 : task buildlut         terminated  iteration  238  cycles=        0
+at:     3308 ,core 14 : task buildlut         scheduled   iteration  254
+at:     3308 ,core 15 : task buildlut         terminated  iteration  239  cycles=        0
+at:     3317 ,core 15 : task buildlut         scheduled   iteration  255
+at:     3326 ,core  0 : task buildlut         terminated  iteration  240  cycles=        0
+at:     3326 ,core  1 : task buildlut         terminated  iteration  241  cycles=        0
+at:     3336 ,core  2 : task buildlut         terminated  iteration  242  cycles=        0
+at:     3345 ,core  3 : task buildlut         terminated  iteration  243  cycles=        0
+at:     3354 ,core  4 : task buildlut         terminated  iteration  244  cycles=        0
+at:     3363 ,core  5 : task buildlut         terminated  iteration  245  cycles=        0
+at:     3363 ,core  6 : task buildlut         terminated  iteration  246  cycles=        0
+at:     3391 ,core  7 : task buildlut         terminated  iteration  247  cycles=        0
+at:     3400 ,core  8 : task buildlut         terminated  iteration  248  cycles=        0
+at:     3409 ,core  9 : task buildlut         terminated  iteration  249  cycles=        0
+at:     3418 ,core 10 : task buildlut         terminated  iteration  250  cycles=        0
+at:     3428 ,core 11 : task buildlut         terminated  iteration  251  cycles=        0
+at:     3428 ,core 12 : task buildlut         terminated  iteration  252  cycles=        0
+at:     3437 ,core 13 : task buildlut         terminated  iteration  253  cycles=        0
+at:     3446 ,core 14 : task buildlut         terminated  iteration  254  cycles=        0
+at:     3455 ,core 15 : task buildlut         terminated  iteration  255  cycles=        0
+at:     3455 ,core 15 : task buildlut         terminated
+at:     3465 ,core 15 : task balance          scheduled   iteration    0
+at:     3465 ,core  0 : task balance          scheduled   iteration    1
+at:     3474 ,core  1 : task balance          scheduled   iteration    2
+at:     3483 ,core  2 : task balance          scheduled   iteration    3
+at:     3483 ,core  3 : task balance          scheduled   iteration    4
+at:     3492 ,core  4 : task balance          scheduled   iteration    5
+at:     3501 ,core  5 : task balance          scheduled   iteration    6
+at:     3501 ,core  6 : task balance          scheduled   iteration    7
+at:     3511 ,core  7 : task balance          scheduled   iteration    8
+at:     3520 ,core  8 : task balance          scheduled   iteration    9
+at:     3520 ,core  9 : task balance          scheduled   iteration   10
+at:     3529 ,core 10 : task balance          scheduled   iteration   11
+at:     3538 ,core 11 : task balance          scheduled   iteration   12
+at:     3538 ,core 12 : task balance          scheduled   iteration   13
+at:     3547 ,core 13 : task balance          scheduled   iteration   14
+at:     3557 ,core 14 : task balance          scheduled   iteration   15
+at:     3981 ,core 15 : task balance          terminated  iteration    0  cycles=        0
+at:     3990 ,core 15 : task balance          scheduled   iteration   16
+at:     3990 ,core  0 : task balance          terminated  iteration    1  cycles=        0
+at:     3999 ,core  0 : task balance          scheduled   iteration   17
+at:     4008 ,core  1 : task balance          terminated  iteration    2  cycles=        0
+at:     4008 ,core  1 : task balance          scheduled   iteration   18
+at:     4017 ,core  2 : task balance          terminated  iteration    3  cycles=        0
+at:     4027 ,core  2 : task balance          scheduled   iteration   19
+at:     4027 ,core  3 : task balance          terminated  iteration    4  cycles=        0
+at:     4036 ,core  3 : task balance          scheduled   iteration   20
+at:     4045 ,core  4 : task balance          terminated  iteration    5  cycles=        0
+at:     4082 ,core  4 : task balance          scheduled   iteration   21
+at:     4091 ,core  5 : task balance          terminated  iteration    6  cycles=        0
+at:     4100 ,core  5 : task balance          scheduled   iteration   22
+at:     4110 ,core  6 : task balance          terminated  iteration    7  cycles=        0
+at:     4110 ,core  6 : task balance          scheduled   iteration   23
+at:     4119 ,core  7 : task balance          terminated  iteration    8  cycles=        0
+at:     4128 ,core  7 : task balance          scheduled   iteration   24
+at:     4128 ,core  8 : task balance          terminated  iteration    9  cycles=        0
+at:     4137 ,core  8 : task balance          scheduled   iteration   25
+at:     4147 ,core  9 : task balance          terminated  iteration   10  cycles=        0
+at:     4147 ,core  9 : task balance          scheduled   iteration   26
+at:     4156 ,core 10 : task balance          terminated  iteration   11  cycles=        0
+at:     4156 ,core 10 : task balance          scheduled   iteration   27
+at:     4165 ,core 11 : task balance          terminated  iteration   12  cycles=        0
+at:     4174 ,core 11 : task balance          scheduled   iteration   28
+at:     4174 ,core 12 : task balance          terminated  iteration   13  cycles=        0
+at:     4183 ,core 12 : task balance          scheduled   iteration   29
+at:     4193 ,core 13 : task balance          terminated  iteration   14  cycles=        0
+at:     4193 ,core 13 : task balance          scheduled   iteration   30
+at:     4202 ,core 14 : task balance          terminated  iteration   15  cycles=        0
+at:     4202 ,core 14 : task balance          scheduled   iteration   31
+at:     4487 ,core 15 : task balance          terminated  iteration   16  cycles=        0
+at:     4497 ,core 15 : task balance          scheduled   iteration   32
+at:     4506 ,core  0 : task balance          terminated  iteration   17  cycles=        0
+at:     4506 ,core  0 : task balance          scheduled   iteration   33
+at:     4515 ,core  1 : task balance          terminated  iteration   18  cycles=        0
+at:     4524 ,core  1 : task balance          scheduled   iteration   34
+at:     4524 ,core  2 : task balance          terminated  iteration   19  cycles=        0
+at:     4534 ,core  2 : task balance          scheduled   iteration   35
+at:     4543 ,core  3 : task balance          terminated  iteration   20  cycles=        0
+at:     4543 ,core  3 : task balance          scheduled   iteration   36
+at:     4598 ,core  4 : task balance          terminated  iteration   21  cycles=        0
+at:     4607 ,core  4 : task balance          scheduled   iteration   37
+at:     4617 ,core  5 : task balance          terminated  iteration   22  cycles=        0
+at:     4617 ,core  5 : task balance          scheduled   iteration   38
+at:     4626 ,core  6 : task balance          terminated  iteration   23  cycles=        0
+at:     4635 ,core  6 : task balance          scheduled   iteration   39
+at:     4635 ,core  7 : task balance          terminated  iteration   24  cycles=        0
+at:     4644 ,core  7 : task balance          scheduled   iteration   40
+at:     4672 ,core  8 : task balance          terminated  iteration   25  cycles=        0
+at:     4681 ,core  8 : task balance          scheduled   iteration   41
+at:     4690 ,core  9 : task balance          terminated  iteration   26  cycles=        0
+at:     4690 ,core  9 : task balance          scheduled   iteration   42
+at:     4699 ,core 10 : task balance          terminated  iteration   27  cycles=        0
+at:     4699 ,core 10 : task balance          scheduled   iteration   43
+at:     4709 ,core 11 : task balance          terminated  iteration   28  cycles=        0
+at:     4718 ,core 11 : task balance          scheduled   iteration   44
+at:     4718 ,core 12 : task balance          terminated  iteration   29  cycles=        0
+at:     4727 ,core 12 : task balance          scheduled   iteration   45
+at:     4736 ,core 13 : task balance          terminated  iteration   30  cycles=        0
+at:     4764 ,core 13 : task balance          scheduled   iteration   46
+at:     4773 ,core 14 : task balance          terminated  iteration   31  cycles=        0
+at:     4782 ,core 14 : task balance          scheduled   iteration   47
+at:     5022 ,core 15 : task balance          terminated  iteration   32  cycles=        0
+at:     5022 ,core 15 : task balance          scheduled   iteration   48
+at:     5031 ,core  0 : task balance          terminated  iteration   33  cycles=        0
+at:     5040 ,core  0 : task balance          scheduled   iteration   49
+at:     5050 ,core  1 : task balance          terminated  iteration   34  cycles=        0
+at:     5050 ,core  1 : task balance          scheduled   iteration   50
+at:     5059 ,core  2 : task balance          terminated  iteration   35  cycles=        0
+at:     5059 ,core  2 : task balance          scheduled   iteration   51
+at:     5068 ,core  3 : task balance          terminated  iteration   36  cycles=        0
+at:     5077 ,core  3 : task balance          scheduled   iteration   52
+at:     5133 ,core  4 : task balance          terminated  iteration   37  cycles=        0
+at:     5133 ,core  4 : task balance          scheduled   iteration   53
+at:     5142 ,core  5 : task balance          terminated  iteration   38  cycles=        0
+at:     5151 ,core  5 : task balance          scheduled   iteration   54
+at:     5151 ,core  6 : task balance          terminated  iteration   39  cycles=        0
+at:     5160 ,core  6 : task balance          scheduled   iteration   55
+at:     5169 ,core  7 : task balance          terminated  iteration   40  cycles=        0
+at:     5169 ,core  7 : task balance          scheduled   iteration   56
+at:     5206 ,core  8 : task balance          terminated  iteration   41  cycles=        0
+at:     5206 ,core  8 : task balance          scheduled   iteration   57
+at:     5216 ,core  9 : task balance          terminated  iteration   42  cycles=        0
+at:     5216 ,core  9 : task balance          scheduled   iteration   58
+at:     5225 ,core 10 : task balance          terminated  iteration   43  cycles=        0
+at:     5234 ,core 10 : task balance          scheduled   iteration   59
+at:     5234 ,core 11 : task balance          terminated  iteration   44  cycles=        0
+at:     5243 ,core 11 : task balance          scheduled   iteration   60
+at:     5252 ,core 12 : task balance          terminated  iteration   45  cycles=        0
+at:     5252 ,core 12 : task balance          scheduled   iteration   61
+at:     5308 ,core 13 : task balance          terminated  iteration   46  cycles=        0
+at:     5317 ,core 13 : task balance          scheduled   iteration   62
+at:     5317 ,core 14 : task balance          terminated  iteration   47  cycles=        0
+at:     5326 ,core 14 : task balance          scheduled   iteration   63
+at:     5566 ,core 15 : task balance          terminated  iteration   48  cycles=        0
+at:     5566 ,core 15 : task balance          scheduled   iteration   64
+at:     5575 ,core  0 : task balance          terminated  iteration   49  cycles=        0
+at:     5584 ,core  0 : task balance          scheduled   iteration   65
+at:     5584 ,core  1 : task balance          terminated  iteration   50  cycles=        0
+at:     5593 ,core  1 : task balance          scheduled   iteration   66
+at:     5603 ,core  2 : task balance          terminated  iteration   51  cycles=        0
+at:     5603 ,core  2 : task balance          scheduled   iteration   67
+at:     5612 ,core  3 : task balance          terminated  iteration   52  cycles=        0
+at:     5612 ,core  3 : task balance          scheduled   iteration   68
+at:     5676 ,core  4 : task balance          terminated  iteration   53  cycles=        0
+at:     5676 ,core  4 : task balance          scheduled   iteration   69
+at:     5686 ,core  5 : task balance          terminated  iteration   54  cycles=        0
+at:     5686 ,core  5 : task balance          scheduled   iteration   70
+at:     5695 ,core  6 : task balance          terminated  iteration   55  cycles=        0
+at:     5732 ,core  6 : task balance          scheduled   iteration   71
+at:     5741 ,core  7 : task balance          terminated  iteration   56  cycles=        0
+at:     5741 ,core  7 : task balance          scheduled   iteration   72
+at:     5750 ,core  8 : task balance          terminated  iteration   57  cycles=        0
+at:     5759 ,core  8 : task balance          scheduled   iteration   73
+at:     5759 ,core  9 : task balance          terminated  iteration   58  cycles=        0
+at:     5768 ,core  9 : task balance          scheduled   iteration   74
+at:     5778 ,core 10 : task balance          terminated  iteration   59  cycles=        0
+at:     5778 ,core 10 : task balance          scheduled   iteration   75
+at:     5787 ,core 11 : task balance          terminated  iteration   60  cycles=        0
+at:     5787 ,core 11 : task balance          scheduled   iteration   76
+at:     5796 ,core 12 : task balance          terminated  iteration   61  cycles=        0
+at:     5805 ,core 12 : task balance          scheduled   iteration   77
+at:     5833 ,core 13 : task balance          terminated  iteration   62  cycles=        0
+at:     5842 ,core 13 : task balance          scheduled   iteration   78
+at:     5842 ,core 14 : task balance          terminated  iteration   63  cycles=        0
+at:     5851 ,core 14 : task balance          scheduled   iteration   79
+at:     6091 ,core 15 : task balance          terminated  iteration   64  cycles=        0
+at:     6100 ,core 15 : task balance          scheduled   iteration   80
+at:     6100 ,core  0 : task balance          terminated  iteration   65  cycles=        0
+at:     6109 ,core  0 : task balance          scheduled   iteration   81
+at:     6119 ,core  1 : task balance          terminated  iteration   66  cycles=        0
+at:     6119 ,core  1 : task balance          scheduled   iteration   82
+at:     6128 ,core  2 : task balance          terminated  iteration   67  cycles=        0
+at:     6128 ,core  2 : task balance          scheduled   iteration   83
+at:     6137 ,core  3 : task balance          terminated  iteration   68  cycles=        0
+at:     6146 ,core  3 : task balance          scheduled   iteration   84
+at:     6202 ,core  4 : task balance          terminated  iteration   69  cycles=        0
+at:     6202 ,core  4 : task balance          scheduled   iteration   85
+at:     6211 ,core  5 : task balance          terminated  iteration   70  cycles=        0
+at:     6220 ,core  5 : task balance          scheduled   iteration   86
+at:     6248 ,core  6 : task balance          terminated  iteration   71  cycles=        0
+at:     6257 ,core  6 : task balance          scheduled   iteration   87
+at:     6257 ,core  7 : task balance          terminated  iteration   72  cycles=        0
+at:     6266 ,core  7 : task balance          scheduled   iteration   88
+at:     6275 ,core  8 : task balance          terminated  iteration   73  cycles=        0
+at:     6275 ,core  8 : task balance          scheduled   iteration   89
+at:     6285 ,core  9 : task balance          terminated  iteration   74  cycles=        0
+at:     6294 ,core  9 : task balance          scheduled   iteration   90
+at:     6294 ,core 10 : task balance          terminated  iteration   75  cycles=        0
+at:     6303 ,core 10 : task balance          scheduled   iteration   91
+at:     6312 ,core 11 : task balance          terminated  iteration   76  cycles=        0
+at:     6312 ,core 11 : task balance          scheduled   iteration   92
+at:     6321 ,core 12 : task balance          terminated  iteration   77  cycles=        0
+at:     6321 ,core 12 : task balance          scheduled   iteration   93
+at:     6377 ,core 13 : task balance          terminated  iteration   78  cycles=        0
+at:     6386 ,core 13 : task balance          scheduled   iteration   94
+at:     6395 ,core 14 : task balance          terminated  iteration   79  cycles=        0
+at:     6395 ,core 14 : task balance          scheduled   iteration   95
+at:     6616 ,core 15 : task balance          terminated  iteration   80  cycles=        0
+at:     6653 ,core 15 : task balance          scheduled   iteration   96
+at:     6662 ,core  0 : task balance          terminated  iteration   81  cycles=        0
+at:     6662 ,core  0 : task balance          scheduled   iteration   97
+at:     6672 ,core  1 : task balance          terminated  iteration   82  cycles=        0
+at:     6681 ,core  1 : task balance          scheduled   iteration   98
+at:     6681 ,core  2 : task balance          terminated  iteration   83  cycles=        0
+at:     6690 ,core  2 : task balance          scheduled   iteration   99
+at:     6699 ,core  3 : task balance          terminated  iteration   84  cycles=        0
+at:     6699 ,core  3 : task balance          scheduled   iteration  100
+at:     6736 ,core  4 : task balance          terminated  iteration   85  cycles=        0
+at:     6736 ,core  4 : task balance          scheduled   iteration  101
+at:     6745 ,core  5 : task balance          terminated  iteration   86  cycles=        0
+at:     6745 ,core  5 : task balance          scheduled   iteration  102
+at:     6782 ,core  6 : task balance          terminated  iteration   87  cycles=        0
+at:     6782 ,core  6 : task balance          scheduled   iteration  103
+at:     6791 ,core  7 : task balance          terminated  iteration   88  cycles=        0
+at:     6801 ,core  7 : task balance          scheduled   iteration  104
+at:     6810 ,core  8 : task balance          terminated  iteration   89  cycles=        0
+at:     6810 ,core  8 : task balance          scheduled   iteration  105
+at:     6819 ,core  9 : task balance          terminated  iteration   90  cycles=        0
+at:     6819 ,core  9 : task balance          scheduled   iteration  106
+at:     6828 ,core 10 : task balance          terminated  iteration   91  cycles=        0
+at:     6837 ,core 10 : task balance          scheduled   iteration  107
+at:     6837 ,core 11 : task balance          terminated  iteration   92  cycles=        0
+at:     6847 ,core 11 : task balance          scheduled   iteration  108
+at:     6856 ,core 12 : task balance          terminated  iteration   93  cycles=        0
+at:     6856 ,core 12 : task balance          scheduled   iteration  109
+at:     6911 ,core 13 : task balance          terminated  iteration   94  cycles=        0
+at:     6920 ,core 13 : task balance          scheduled   iteration  110
+at:     6920 ,core 14 : task balance          terminated  iteration   95  cycles=        0
+at:     6930 ,core 14 : task balance          scheduled   iteration  111
+at:     7169 ,core 15 : task balance          terminated  iteration   96  cycles=        0
+at:     7169 ,core 15 : task balance          scheduled   iteration  112
+at:     7178 ,core  0 : task balance          terminated  iteration   97  cycles=        0
+at:     7188 ,core  0 : task balance          scheduled   iteration  113
+at:     7188 ,core  1 : task balance          terminated  iteration   98  cycles=        0
+at:     7197 ,core  1 : task balance          scheduled   iteration  114
+at:     7206 ,core  2 : task balance          terminated  iteration   99  cycles=        0
+at:     7206 ,core  2 : task balance          scheduled   iteration  115
+at:     7215 ,core  3 : task balance          terminated  iteration  100  cycles=        0
+at:     7225 ,core  3 : task balance          scheduled   iteration  116
+at:     7280 ,core  4 : task balance          terminated  iteration  101  cycles=        0
+at:     7280 ,core  4 : task balance          scheduled   iteration  117
+at:     7289 ,core  5 : task balance          terminated  iteration  102  cycles=        0
+at:     7298 ,core  5 : task balance          scheduled   iteration  118
+at:     7298 ,core  6 : task balance          terminated  iteration  103  cycles=        0
+at:     7307 ,core  6 : task balance          scheduled   iteration  119
+at:     7335 ,core  7 : task balance          terminated  iteration  104  cycles=        0
+at:     7344 ,core  7 : task balance          scheduled   iteration  120
+at:     7354 ,core  8 : task balance          terminated  iteration  105  cycles=        0
+at:     7381 ,core  8 : task balance          scheduled   iteration  121
+at:     7390 ,core  9 : task balance          terminated  iteration  106  cycles=        0
+at:     7400 ,core  9 : task balance          scheduled   iteration  122
+at:     7400 ,core 10 : task balance          terminated  iteration  107  cycles=        0
+at:     7409 ,core 10 : task balance          scheduled   iteration  123
+at:     7418 ,core 11 : task balance          terminated  iteration  108  cycles=        0
+at:     7418 ,core 11 : task balance          scheduled   iteration  124
+at:     7427 ,core 12 : task balance          terminated  iteration  109  cycles=        0
+at:     7436 ,core 12 : task balance          scheduled   iteration  125
+at:     7436 ,core 13 : task balance          terminated  iteration  110  cycles=        0
+at:     7446 ,core 13 : task balance          scheduled   iteration  126
+at:     7455 ,core 14 : task balance          terminated  iteration  111  cycles=        0
+at:     7455 ,core 14 : task balance          scheduled   iteration  127
+at:     7704 ,core 15 : task balance          terminated  iteration  112  cycles=        0
+at:     7704 ,core  0 : task balance          terminated  iteration  113  cycles=        0
+at:     7713 ,core  1 : task balance          terminated  iteration  114  cycles=        0
+at:     7722 ,core  2 : task balance          terminated  iteration  115  cycles=        0
+at:     7750 ,core  3 : task balance          terminated  iteration  116  cycles=        0
+at:     7814 ,core  4 : task balance          terminated  iteration  117  cycles=        0
+at:     7824 ,core  5 : task balance          terminated  iteration  118  cycles=        0
+at:     7824 ,core  6 : task balance          terminated  iteration  119  cycles=        0
+at:     7860 ,core  7 : task balance          terminated  iteration  120  cycles=        0
+at:     7897 ,core  8 : task balance          terminated  iteration  121  cycles=        0
+at:     7906 ,core  9 : task balance          terminated  iteration  122  cycles=        0
+at:     7906 ,core 10 : task balance          terminated  iteration  123  cycles=        0
+at:     7916 ,core 11 : task balance          terminated  iteration  124  cycles=        0
+at:     7953 ,core 12 : task balance          terminated  iteration  125  cycles=        0
+at:     7962 ,core 13 : task balance          terminated  iteration  126  cycles=        0
+at:     7971 ,core 14 : task balance          terminated  iteration  127  cycles=        0
+at:     7971 ,core 14 : task balance          terminated
+at:     7971 ,core 14 : task finish           scheduled  
+at:     8008 ,core 14 : task finish           terminated  retval 0        cycles=        0
+at:  1762617 -----------------------------Task Map DONE--------------------------------
+at:  1762626 -----------------------------CoresNum=16--------------------------------
+
+ dumping OUTPUT

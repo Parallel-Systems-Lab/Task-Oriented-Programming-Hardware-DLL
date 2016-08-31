@@ -1,0 +1,9 @@
+extern void init(void);
+extern void user1_hw1(void);
+extern void user1_hw2(void);
+extern void user1_hw3(void);
+extern void user1_hw4(void);
+extern void user1_hw5(void);
+extern void user1_hw6(void);
+extern void user1_hw7(void);
+extern void finish(void);

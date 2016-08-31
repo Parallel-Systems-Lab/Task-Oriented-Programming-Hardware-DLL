@@ -1,0 +1,6 @@
+regular task init()
+regular task SAS_5(dup_50[5]/s)
+regular task SAF_10(dup_50[10]/f)
+regular task SAF_25(dup_50[25]/f)
+duplicable task dup_50(init/fu)
+regular task finish(dup_50/f & SAF_25/fu)

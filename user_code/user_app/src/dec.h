@@ -1,0 +1,12 @@
+extern void init(void);
+extern void foo(void);
+extern void dumb(void);
+extern void blabla(void);
+extern void foobar(void);
+extern void dupli(void);
+extern void macintosh(void);
+extern void starter(void);
+extern void bar(void);
+extern void dumb1(void);
+extern void dumb2(void);
+extern void finish(void);

@@ -1,0 +1,3 @@
+regular task init1()
+regular task evaluate1(init1/fu )
+regular task finish1(evaluate1/fu)

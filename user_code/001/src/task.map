@@ -1,0 +1,6 @@
+regular task init()
+regular task SAS(init/s)
+regular task SAF_if_true(init/f1)
+regular task SAF_if_false(init/f0)
+dummy task d2(SAF_if_true/fu | SAF_if_false/fu)
+regular task finish(SAS/fu & d2/f)
